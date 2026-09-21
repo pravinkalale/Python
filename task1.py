@@ -1,0 +1,11 @@
+name = input("Enter Your Name: ")
+age = int(input("Enter Your Age: "))
+college = input("Enter your college name: ")
+course = input("Enter your course Name: ")
+Percentage = float(input("Enter your percentage: "))
+
+print("Name:",name)
+print("Age:",age)
+print("College:",college)
+print("Course:",course)
+print("Percentage:",Percentage)
