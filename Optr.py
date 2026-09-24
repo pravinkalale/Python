@@ -78,5 +78,8 @@ k //= L
 print(k)      # floor division and assign
 
 
+# some tasks
 
+if 5 > 2:
+    print("Five is greater than two!")
 
