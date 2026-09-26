@@ -8,7 +8,15 @@ else:
     
 marks = float(input("Enter your marks: "))
 
-if marks >= 35:
-    print("Pass")
+if marks >= 85:
+    print("GRADE A+")
+elif marks >= 75:
+    print("GRADE A")
+elif marks >= 60:
+    print("GRADE B+")
+elif marks >= 45:
+    print("GRADE B")
+elif marks >=35:
+    print("GRADE C")
 else:
     print("Fail")
