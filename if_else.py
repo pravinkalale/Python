@@ -16,7 +16,14 @@ elif marks >= 60:
     print("GRADE B+")
 elif marks >= 45:
     print("GRADE B")
-elif marks >=35:
+elif marks >= 35:
     print("GRADE C")
 else:
     print("Fail")
+    
+x = 5
+
+if x > 10:
+    print("Hello")
+    
+print("Python")
