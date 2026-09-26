@@ -21,3 +21,11 @@ y = float(x)
 
 print(y)
 print(type(y))
+
+
+a = 100
+
+b = str(a)
+
+print(b)
+print(type(b))
