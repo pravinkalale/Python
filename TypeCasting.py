@@ -1,19 +1,19 @@
-# age = int(input("Enter age: "))
+age = int(input("Enter age: "))
 
-# print(age)
-# print(type(age))
+print(age)
+print(type(age))
 
-# price = float(input("Enter price: "))
+price = float(input("Enter price: "))
 
-# print(price)
-# print(type(price))
+print(price)
+print(type(price))
 
-# x = "25"
+x = "25"
 
-# y = int(x)
+y = int(x)
 
-# print(y)
-# print(type(y))
+print(y)
+print(type(y))
 
 x = 10
 
@@ -43,6 +43,7 @@ a = 10
 b = 5.5
 c = a + b
 
+print(c)
 print(type(a))
 print(type(b))
 print(type(c))
