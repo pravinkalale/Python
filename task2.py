@@ -33,9 +33,16 @@
 # if age >= 18: 
 #     print("Eligible for voting!")
 
-# Result (6)
+# # Result (6)
 
-marks = int(input("Enter your marks: "))
+# marks = int(input("Enter your marks: "))
 
-if marks >= 35:
-    print("Pass")
+# if marks >= 35:
+#     print("Pass")
+
+# number divisible by 5 (7)
+
+num = int(input("Enter any number: "))
+
+if num % 5 == 0: 
+    print("Divisible by 5!")
