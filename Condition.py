@@ -1,19 +1,19 @@
 # to solve 10 examples
-# age = 19
+age = 19
 
-# if (age >= 18):
+if (age >= 18):
      
-#     print("You are eligible for vote")
-# print("ghari jay")
+    print("You are eligible for vote")
+print("ghari jay")
 
-# if else 
+if else 
 
-# age =  19
+age =  19
 
-# if age >=18:
-#     print("You are eligible for vote")
-# else:
-#     print("You are not eligible for vote")
+if age >=18:
+    print("You are eligible for vote")
+else:
+    print("You are not eligible for vote")
 
 a = int(input("Enter first number: "))
 b = int(input("Enter second number: "))
