@@ -1,67 +1,67 @@
 # positive number (1)
 
-# a = int(input("Enter a Number: "))
+a = int(input("Enter a Number: "))
 
-# if a > 0:
-#     print("Number is positive!")
+if a > 0:
+    print("Number is positive!")
     
 # Negative number (2)
 
-# b = int(input("Enter a Number: "))
+b = int(input("Enter a Number: "))
 
-# if b < 0:
-#     print("Number is Negative!")
+if b < 0:
+    print("Number is Negative!")
     
 # Even number (3)
 
-# num = int(input("Enter a Number: "))
+num = int(input("Enter a Number: "))
 
-# if num%2==0:
-#     print("Even Number!")
+if num%2==0:
+    print("Even Number!")
     
 # greater than 10 (4)
 
-# d = int(input("Enter a Number: "))
+d = int(input("Enter a Number: "))
 
-# if d > 10 :
-#     print("Number is Greater than 10")
+if d > 10 :
+    print("Number is Greater than 10")
 
-# # voting age (5)
+# voting age (5)
 
-# age = int(input("Enter your Age: "))
+age = int(input("Enter your Age: "))
 
-# if age >= 18: 
-#     print("Eligible for voting!")
+if age >= 18: 
+    print("Eligible for voting!")
 
-# # Result (6)
+# Result (6)
 
-# marks = int(input("Enter your marks: "))
+marks = int(input("Enter your marks: "))
 
-# if marks >= 35:
-#     print("Pass")
+if marks >= 35:
+    print("Pass")
 
-# # number divisible by 5 (7)
+# number divisible by 5 (7)
 
-# num = int(input("Enter any number: "))
+num = int(input("Enter any number: "))
 
-# if num % 5 == 0: 
-#     print("Divisible by 5!")
+if num % 5 == 0: 
+    print("Divisible by 5!")
 
-# # temperature above 30 (8)
+# temperature above 30 (8)
 
-# temperature = int(input("Enter Temperature: "))
+temperature = int(input("Enter Temperature: "))
 
-# if temperature > 30 :
-#     print("Temperature is High")
+if temperature > 30 :
+    print("Temperature is High")
 
-# # eqaul to 100 (9)
+# eqaul to 100 (9)
 
-# num = int(input("Enter a Number: "))
+num = int(input("Enter a Number: "))
 
-# if num == 100:
-#     print("Number is 100")
+if num == 100:
+    print("Number is 100")
 
-# higher salary
+# higher salary (10)
 
 salary = int(input("Enter Salary: "))
 
