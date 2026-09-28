@@ -1,20 +1,27 @@
-# positive number 
+# positive number (1)
 
 # a = int(input("Enter a Number: "))
 
 # if a > 0:
 #     print("Number is positive!")
     
-# Negative number
+# Negative number (2)
 
 # b = int(input("Enter a Number: "))
 
 # if b < 0:
 #     print("Number is Negative!")
     
-# Even number 
+# Even number (3)
 
-num = int(input("Enter a Number: "))
+# num = int(input("Enter a Number: "))
 
-if num%2==0:
-    print("Even Number!")
+# if num%2==0:
+#     print("Even Number!")
+    
+# greater than 10 (4)
+
+d = int(input("Enter a Number: "))
+
+if d > 10 :
+    print("Number is Greater than 10")
