@@ -54,9 +54,16 @@
 # if temperature > 30 :
 #     print("Temperature is High")
 
-# eqaul to 100 (9)
+# # eqaul to 100 (9)
 
-num = int(input("Enter a Number: "))
+# num = int(input("Enter a Number: "))
 
-if num == 100:
-    print("Number is 100")
+# if num == 100:
+#     print("Number is 100")
+
+# higher salary
+
+salary = int(input("Enter Salary: "))
+
+if salary > 50000:
+    print("High Salary!")
