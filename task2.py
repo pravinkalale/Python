@@ -47,9 +47,16 @@
 # if num % 5 == 0: 
 #     print("Divisible by 5!")
 
-# temprature above 30 (8)
+# # temperature above 30 (8)
 
-temprature = int(input("Enter Temprature: "))
+# temperature = int(input("Enter Temperature: "))
 
-if temprature > 30 :
-    print("Temprature is High")
+# if temperature > 30 :
+#     print("Temperature is High")
+
+# eqaul to 100 (9)
+
+num = int(input("Enter a Number: "))
+
+if num == 100:
+    print("Number is 100")
