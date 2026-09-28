@@ -40,9 +40,16 @@
 # if marks >= 35:
 #     print("Pass")
 
-# number divisible by 5 (7)
+# # number divisible by 5 (7)
 
-num = int(input("Enter any number: "))
+# num = int(input("Enter any number: "))
 
-if num % 5 == 0: 
-    print("Divisible by 5!")
+# if num % 5 == 0: 
+#     print("Divisible by 5!")
+
+# temprature above 30 (8)
+
+temprature = int(input("Enter Temprature: "))
+
+if temprature > 30 :
+    print("Temprature is High")
