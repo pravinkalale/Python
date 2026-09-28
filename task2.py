@@ -21,7 +21,14 @@
     
 # greater than 10 (4)
 
-d = int(input("Enter a Number: "))
+# d = int(input("Enter a Number: "))
 
-if d > 10 :
-    print("Number is Greater than 10")
+# if d > 10 :
+#     print("Number is Greater than 10")
+
+# voting age (5)
+
+age = int(input("Enter your Age: "))
+
+if age >= 18: 
+    print("Eligible for voting!")
