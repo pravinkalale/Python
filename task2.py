@@ -26,9 +26,16 @@
 # if d > 10 :
 #     print("Number is Greater than 10")
 
-# voting age (5)
+# # voting age (5)
 
-age = int(input("Enter your Age: "))
+# age = int(input("Enter your Age: "))
 
-if age >= 18: 
-    print("Eligible for voting!")
+# if age >= 18: 
+#     print("Eligible for voting!")
+
+# Result (6)
+
+marks = int(input("Enter your marks: "))
+
+if marks >= 35:
+    print("Pass")
