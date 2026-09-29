@@ -73,11 +73,20 @@
 # else:
 #     print("Normal")
 
-# eqaul to 10 (9)
+# # eqaul to 10 (9)
 
-num = int(input("Enter a number: "))
+# num = int(input("Enter a number: "))
 
-if num == 10:
-    print("Number is 10")
+# if num == 10:
+#     print("Number is 10")
+# else:
+#     print("Number is not 10")
+
+# check password (10)
+
+password = input("Enter Password: ")
+
+if password == "python123":
+    print("Correct Password")
 else:
-    print("Number is not 10")
+    print("Wrong Password")
