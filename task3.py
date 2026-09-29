@@ -55,11 +55,20 @@
 # else:
 #     print("Not divisible by 5")
 
-# Drive eligibility (7)
+# # Drive eligibility (7)
 
-age = int(input("Enter your age: "))
+# age = int(input("Enter your age: "))
 
-if age >= 18 :
-    print("You can drive!")
-else: 
-    print("You cannot drive!")
+# if age >= 18 :
+#     print("You can drive!")
+# else: 
+#     print("You cannot drive!")
+
+#Temperature (8)
+
+temperature = int(input("Enter Temperature: "))
+
+if temperature > 30:
+    print("Hot")
+else:
+    print("Normal")
