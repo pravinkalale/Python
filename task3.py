@@ -82,11 +82,11 @@
 # else:
 #     print("Number is not 10")
 
-# check password (10)
+# # check password (10)
 
-password = input("Enter Password: ")
+# password = input("Enter Password: ")
 
-if password == "python123":
-    print("Correct Password")
-else:
-    print("Wrong Password")
+# if password == "python123":
+#     print("Correct Password")
+# else:
+#     print("Wrong Password")
