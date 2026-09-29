@@ -27,11 +27,21 @@
 # else:
 #     print("Not eligible for vote!")
 
-# pass or fail (4)
+# # pass or fail (4)
 
-marks = int(input("Enter Your Marks: "))
+# marks = int(input("Enter Your Marks: "))
 
-if marks >= 35: 
-    print("Pass")
-else: 
-    print("Fail")
+# if marks >= 35: 
+#     print("Pass")
+# else: 
+#     print("Fail")
+
+# greater number (5)
+
+a = int(input("Enter First Number: "))
+b = int(input("Enter Second Number: "))
+
+if a > b:
+    print(a,"is greater")
+else:
+    print(b,"is greater")
