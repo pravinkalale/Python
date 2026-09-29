@@ -50,15 +50,28 @@
 # else: 
 #     print("Senior Citizen")
 
-# Temperature check 
+# # Temperature check 
 
-temperature = float(input("Enter Temperature: "))
+# temperature = float(input("Enter Temperature: "))
 
-if temperature < 15:
-    print("Temperature is Cold")
-elif temperature >= 15 and temperature <= 25:
-    print("Temperature is Normal")
-elif temperature >= 26 and temperature <= 35:
-    print("Temperature is warm")
+# if temperature < 15:
+#     print("Temperature is Cold")
+# elif temperature >= 15 and temperature <= 25:
+#     print("Temperature is Normal")
+# elif temperature >= 26 and temperature <= 35:
+#     print("Temperature is warm")
+# else:
+#     print("Temperature is Hot")
+
+# Electricity Bill
+
+unit = int(input("Enter electricity units: "))
+
+if unit > 0 and unit <= 100:
+    print("Electricity Bill = ₹",unit*5)
+elif unit >= 101 and unit <= 200:
+    print("Electricity Bill = ₹",unit*7)
+elif unit >= 201 and unit <= 300:
+    print("Electricity Bill = ₹",unit*10)
 else:
-    print("Temperature is Hot")
+    print("Electricity Bill = ₹",unit*12)
