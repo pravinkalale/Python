@@ -18,11 +18,20 @@
 # else:
 #     print("Number is Negative!")
 
-# voting eligibility (3)
+# # voting eligibility (3)
 
-age = int(input("Enter Your Age: "))
+# age = int(input("Enter Your Age: "))
 
-if age >= 18:
-    print("Eligible for vote!")
-else:
-    print("Not eligible fo vote!")
+# if age >= 18:
+#     print("Eligible for vote!")
+# else:
+#     print("Not eligible for vote!")
+
+# pass or fail (4)
+
+marks = int(input("Enter Your Marks: "))
+
+if marks >= 35: 
+    print("Pass")
+else: 
+    print("Fail")
