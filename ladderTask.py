@@ -15,13 +15,24 @@
 # else: 
 #     print("Fail")
 
-# positive or negative 
+# # positive or negative 
+
+# num = int(input("Enter a number: "))
+
+# if num > 0: 
+#     print(num,"is positive")
+# elif num < 0:
+#     print(num,"is negative")
+# else: 
+#     print(num,"is zero")
+
+# even odd & special
 
 num = int(input("Enter a number: "))
 
-if num > 0: 
-    print(num,"is positive")
-elif num < 0:
-    print(num,"is negative")
-else: 
+if num == 0:
     print(num,"is zero")
+elif num % 2 == 0:
+    print(num,"is even")
+else: 
+    print(num,"is odd")
