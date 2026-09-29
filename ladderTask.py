@@ -37,7 +37,7 @@
 # else: 
 #     print(num,"is odd")
 
-# # Age category (5)
+# # Age category (4)
 
 # age = int(input("Enter your age: "))
 
@@ -50,7 +50,7 @@
 # else: 
 #     print("Senior Citizen")
 
-# # Temperature check 
+# # Temperature check (5)
 
 # temperature = float(input("Enter Temperature: "))
 
@@ -63,7 +63,7 @@
 # else:
 #     print("Temperature is Hot")
 
-# # Electricity Bill
+# # Electricity Bill (6)
 
 # unit = int(input("Enter electricity units: "))
 
@@ -76,15 +76,62 @@
 # else:
 #     print("Electricity Bill = ₹",unit*12)
 
-# Salary Bonus
+# # Salary Bonus (7)
 
-salary = int(input("Enter salary: "))
+# salary = int(input("Enter salary: "))
 
-if salary < 20000:
-    print("Bonus:", salary*5/100)
-elif salary >= 20000 and salary <= 40000:
-    print("Bonus:", salary*10/100)
-elif salary >= 40001 and salary <= 60000:
-    print("Bonus:", salary*15/100)
+# if salary < 20000:
+#     print("Bonus:", salary*5/100)
+# elif salary >= 20000 and salary <= 40000:
+#     print("Bonus:", salary*10/100)
+# elif salary >= 40001 and salary <= 60000:
+#     print("Bonus:", salary*15/100)
+# else: 
+#     print("Bonus:", salary*20/100)
+
+# # Percentage division (8)
+
+# percentage = float(input("Enter Percentage: "))
+
+# if percentage >= 75:
+#     print("Distinction")
+# elif percentage >= 60 and percentage <= 74:
+#     print("First Class")
+# elif percentage >= 50 and percentage <= 59:
+#     print("Second Class")
+# elif percentage >= 35 and percentage <= 49:
+#     print("Pass Class")
+# else:
+#     print("Fail")
+
+# # BMI Category (9)
+
+# weight = int(input("Enter Weight: "))
+# height = float(input("Enter Height: "))
+
+# BMI = weight / (height*height)
+
+# if BMI < 18.5:
+#     print("Underweight")
+# elif BMI >= 18.5 and BMI <= 24.9:
+#     print("Normal")
+# elif BMI >= 25 and BMI <= 29.9:
+#     print("Overweight")
+# else:
+#     print("Obese")
+
+# shopping discount (10)
+
+amount = float(input("Enter shopping amount: ")) 
+    
+if amount < 1000:
+    print("No Discount")
+elif amount >= 1000 and amount <= 4999:
+    print("Discount:₹", amount*5/100)
+    print("Final Amount:₹", amount - (amount*5/100))
+elif amount >= 5000 and amount <= 9999:
+    print("Discount:₹", amount*10/100)
+    print("Final Amount:₹", amount - (amount*10/100))
 else: 
-    print("Bonus:", salary*20/100)
+    print("Discount:₹", amount*15/100)
+    print("Final Amount:₹",amount-( amount*15/100))
