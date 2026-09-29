@@ -46,11 +46,20 @@
 # else:
 #     print(b,"is greater")
 
-# Divisible by 5 (6)
+# # Divisible by 5 (6)
 
-num = int(input("Enter a number: "))
+# num = int(input("Enter a number: "))
 
-if num % 5 ==0:
-    print("Divisibe by 5")
-else:
-    print("Not divisible by 5")
+# if num % 5 ==0:
+#     print("Divisible by 5")
+# else:
+#     print("Not divisible by 5")
+
+# Drive eligibility (7)
+
+age = int(input("Enter your age: "))
+
+if age >= 18 :
+    print("You can drive!")
+else: 
+    print("You cannot drive!")
