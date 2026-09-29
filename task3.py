@@ -64,11 +64,20 @@
 # else: 
 #     print("You cannot drive!")
 
-#Temperature (8)
+# #Temperature (8)
 
-temperature = int(input("Enter Temperature: "))
+# temperature = int(input("Enter Temperature: "))
 
-if temperature > 30:
-    print("Hot")
+# if temperature > 30:
+#     print("Hot")
+# else:
+#     print("Normal")
+
+# eqaul to 10 (9)
+
+num = int(input("Enter a number: "))
+
+if num == 10:
+    print("Number is 10")
 else:
-    print("Normal")
+    print("Number is not 10")
