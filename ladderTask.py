@@ -63,15 +63,28 @@
 # else:
 #     print("Temperature is Hot")
 
-# Electricity Bill
+# # Electricity Bill
 
-unit = int(input("Enter electricity units: "))
+# unit = int(input("Enter electricity units: "))
 
-if unit > 0 and unit <= 100:
-    print("Electricity Bill = ₹",unit*5)
-elif unit >= 101 and unit <= 200:
-    print("Electricity Bill = ₹",unit*7)
-elif unit >= 201 and unit <= 300:
-    print("Electricity Bill = ₹",unit*10)
-else:
-    print("Electricity Bill = ₹",unit*12)
+# if unit > 0 and unit <= 100:
+#     print("Electricity Bill = ₹",unit*5)
+# elif unit >= 101 and unit <= 200:
+#     print("Electricity Bill = ₹",unit*7)
+# elif unit >= 201 and unit <= 300:
+#     print("Electricity Bill = ₹",unit*10)
+# else:
+#     print("Electricity Bill = ₹",unit*12)
+
+# Salary Bonus
+
+salary = int(input("Enter salary: "))
+
+if salary < 20000:
+    print("Bonus:", salary*5/100)
+elif salary >= 20000 and salary <= 40000:
+    print("Bonus:", salary*10/100)
+elif salary >= 40001 and salary <= 60000:
+    print("Bonus:", salary*15/100)
+else: 
+    print("Bonus:", salary*20/100)
