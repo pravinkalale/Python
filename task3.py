@@ -9,11 +9,20 @@
 # else:
 #     print("Number is Odd!")
     
-# positive or negative (2)
+# # positive or negative (2)
 
-num = int(input("Enter a Number: "))
+# num = int(input("Enter a Number: "))
 
-if num > 0:
-    print("Number is Positive!")
+# if num > 0:
+#     print("Number is Positive!")
+# else:
+#     print("Number is Negative!")
+
+# voting eligibility (3)
+
+age = int(input("Enter Your Age: "))
+
+if age >= 18:
+    print("Eligible for vote!")
 else:
-    print("Number is Negative!")
+    print("Not eligible fo vote!")
