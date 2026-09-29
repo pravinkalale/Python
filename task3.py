@@ -36,12 +36,21 @@
 # else: 
 #     print("Fail")
 
-# greater number (5)
+# # greater number (5)
 
-a = int(input("Enter First Number: "))
-b = int(input("Enter Second Number: "))
+# a = int(input("Enter First Number: "))
+# b = int(input("Enter Second Number: "))
 
-if a > b:
-    print(a,"is greater")
+# if a > b:
+#     print(a,"is greater")
+# else:
+#     print(b,"is greater")
+
+# Divisible by 5 (6)
+
+num = int(input("Enter a number: "))
+
+if num % 5 ==0:
+    print("Divisibe by 5")
 else:
-    print(b,"is greater")
+    print("Not divisible by 5")
