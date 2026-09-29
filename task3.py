@@ -1,10 +1,19 @@
-# solve if_else 10 examples 
+# # solve if_else 10 examples 
 
-# even odd number (1)
+# # even odd number (1)
+
+# num = int(input("Enter a Number: "))
+
+# if num % 2 == 0:
+#     print("Number is Even!")
+# else:
+#     print("Number is Odd!")
+    
+# positive or negative (2)
 
 num = int(input("Enter a Number: "))
 
-if num % 2 == 0:
-    print("Number is Even!")
+if num > 0:
+    print("Number is Positive!")
 else:
-    print("Number is Odd!")
+    print("Number is Negative!")

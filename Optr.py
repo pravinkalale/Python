@@ -85,7 +85,7 @@ if 5 > 2:
     print("Five is greater than two!")
 
 
-Membership Operator 
+# Membership Operator 
 
 s = [1,2,3,4,5]
 
