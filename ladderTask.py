@@ -15,7 +15,7 @@
 # else: 
 #     print("Fail")
 
-# # positive or negative 
+# # positive or negative (2)
 
 # num = int(input("Enter a number: "))
 
@@ -26,13 +26,26 @@
 # else: 
 #     print(num,"is zero")
 
-# even odd & special
+# # even odd & special (3)
 
-num = int(input("Enter a number: "))
+# num = int(input("Enter a number: "))
 
-if num == 0:
-    print(num,"is zero")
-elif num % 2 == 0:
-    print(num,"is even")
+# if num == 0:
+#     print(num,"is zero")
+# elif num % 2 == 0:
+#     print(num,"is even")
+# else: 
+#     print(num,"is odd")
+
+# Age category
+
+age = int(input("Enter your age: "))
+
+if age >= 0 and age <= 12:
+    print("child")
+elif age >= 13 and age <= 19:
+    print("Teenager")
+elif age >= 20 and age <= 59:
+    print("Adult")
 else: 
-    print(num,"is odd")
+    print("Senior Citizen")
