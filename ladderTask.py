@@ -37,15 +37,28 @@
 # else: 
 #     print(num,"is odd")
 
-# Age category
+# # Age category (5)
 
-age = int(input("Enter your age: "))
+# age = int(input("Enter your age: "))
 
-if age >= 0 and age <= 12:
-    print("child")
-elif age >= 13 and age <= 19:
-    print("Teenager")
-elif age >= 20 and age <= 59:
-    print("Adult")
-else: 
-    print("Senior Citizen")
+# if age >= 0 and age <= 12:
+#     print("child")
+# elif age >= 13 and age <= 19:
+#     print("Teenager")
+# elif age >= 20 and age <= 59:
+#     print("Adult")
+# else: 
+#     print("Senior Citizen")
+
+# Temperature check 
+
+temperature = float(input("Enter Temperature: "))
+
+if temperature < 15:
+    print("Temperature is Cold")
+elif temperature >= 15 and temperature <= 25:
+    print("Temperature is Normal")
+elif temperature >= 26 and temperature <= 35:
+    print("Temperature is warm")
+else:
+    print("Temperature is Hot")
