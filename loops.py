@@ -10,7 +10,11 @@
 # for a in range(1,11):
 #     print(a)
     
-p = "pravin"
+# p = "pravin"
 
-for p in range(1,6):
-    print("pravin")
+# for p in range(1,6):
+#     print("pravin")
+
+i = 1
+for i in range(5):
+    print(i)
