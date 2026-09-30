@@ -6,6 +6,7 @@
 # even no. & their sum
 # odd no. & their sum
 # to print table for particular no.
+# reverse print
 
 # 1 to 10 sqaure
 
@@ -16,14 +17,10 @@
     
 # 1 to 10 no. cube 
 
-# a = 1
-
 # for a in range(1,11):
 #     print("cube is",a*a*a)
     
 # even no 1 to 10
-
-# a = 1
 
 # for a in range(1,11):
 #     if a%2==0:
@@ -31,8 +28,6 @@
     
     
 # odd no 1 to 10
-
-# a = 1
 
 # for a in range(1,11):
 #     if a%2!=0:
@@ -44,10 +39,10 @@
 
 # for a in range(1,11,1):
 #     sum = sum+a
-#     print(sum)
+# print(sum)
     
     
-# even & their sum
+# # even & their sum
 
 # sum = 0
 
@@ -55,7 +50,7 @@
 #     if a % 2==0:
 #         print("Even no.",a)
 #         sum = sum + a
-#         print(sum)
+# print("sum=",sum)
     
 # odd no. & their sum
 
@@ -65,18 +60,16 @@
 #     if a%2!=0:
 #         print("odd no.",a)
 #         sum = sum + a
-#         print(sum)
+# print("sum=",sum)
         
-# to print table for particular no.
+# # to print table for particular no.
 
 # num = int(input("Enter Number: "))
 
 # for i in range(1, 11):
 #     print(num,"x",i,"=",num*i)
     
-# reverse print
+# # reverse print
 
-a = 1
-
-for a in range(11,1,-1):
-    print(a)
+# for a in range(10,0,-1):
+#     print(a)
