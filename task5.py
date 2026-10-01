@@ -2,7 +2,7 @@
 # output - 6
 
 #input - 234
-#output - 12
+#output - 24
 
 sum = 0
 num = int(input("Enter a number: "))
