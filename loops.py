@@ -15,6 +15,10 @@
 # for p in range(1,6):
 #     print("pravin")
 
-i = 1
-for i in range(5):  #rang is a function
-    print(i) 
+# i = 1
+# for i in range(5):  #rang is a function
+#     print(i) 
+    
+a =1 
+while(a<=10):
+    print(a)
