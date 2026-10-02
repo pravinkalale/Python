@@ -4,7 +4,7 @@ temp = num
 
 while(num>0):
     rem=num%10
-    sum=sum+rem**4
+    sum=sum+rem**3 
     num=num//10
 print("reverse number is: ",sum)
 if(temp==sum):
