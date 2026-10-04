@@ -49,8 +49,15 @@
 
 # print("Square is:",a*a)
 
-# Write a program to calculate the cube of a number.
+# # Write a program to calculate the cube of a number.
 
-a = int(input("Enter a Number: "))
+# a = int(input("Enter a Number: "))
 
-print("Cube is:",a**3)
+# print("Cube is:",a**3)
+
+# Write a program to calculate a² + b².
+
+a = int(input("Enter a: "))
+b = int(input("Enter b: "))
+
+print(a**2 + b**2)
