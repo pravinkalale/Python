@@ -43,8 +43,14 @@
 # num = a // 10
 # print(num)
 
-# Write a program to calculate the square of a number.
+# # Write a program to calculate the square of a number.
 
-a = int(input("Enter A Number: "))
+# a = int(input("Enter A Number: "))
 
-print("Square is:",a*a)
+# print("Square is:",a*a)
+
+# Write a program to calculate the cube of a number.
+
+a = int(input("Enter a Number: "))
+
+print("Cube is:",a**3)
