@@ -69,10 +69,17 @@
 
 # print(a**3 + b**3)
 
-# Calculate the area of a rectangle using length and width.
+# # Calculate the area of a rectangle using length and width.
 
-l = int(input("Enter length: "))
-w = int(input("Enter width: "))
+# l = int(input("Enter length: "))
+# w = int(input("Enter width: "))
 
-print("Area=",l*w,"cm")
+# print("Area=",l*w,"cm")
+
+# Calculate the area of a circle.
+
+r = int(input("Enter radius of circle: "))
+
+print("Area:",3.14 * r**2)
+
 
