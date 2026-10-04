@@ -55,9 +55,16 @@
 
 # print("Cube is:",a**3)
 
-# Write a program to calculate a² + b².
+# # Write a program to calculate a² + b².
+
+# a = int(input("Enter a: "))
+# b = int(input("Enter b: "))
+
+# print(a**2 + b**2)
+
+# Write a program to calculate a³ + b³.
 
 a = int(input("Enter a: "))
 b = int(input("Enter b: "))
 
-print(a**2 + b**2)
+print(a**3 + b**3)
