@@ -62,9 +62,17 @@
 
 # print(a**2 + b**2)
 
-# Write a program to calculate a³ + b³.
+# # Write a program to calculate a³ + b³.
 
-a = int(input("Enter a: "))
-b = int(input("Enter b: "))
+# a = int(input("Enter a: "))
+# b = int(input("Enter b: "))
 
-print(a**3 + b**3)
+# print(a**3 + b**3)
+
+# Calculate the area of a rectangle using length and width.
+
+l = int(input("Enter length: "))
+w = int(input("Enter width: "))
+
+print("Area=",l*w,"cm")
+
