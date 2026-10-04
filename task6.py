@@ -36,9 +36,15 @@
 # print(rem,digit)
 
 
-# Write a program to find the quotient using //.
+# # Write a program to find the quotient using //.
 
-a = int(input("Enter a number: "))
+# a = int(input("Enter a number: "))
 
-num = a // 10
-print(num)
+# num = a // 10
+# print(num)
+
+# Write a program to calculate the square of a number.
+
+a = int(input("Enter A Number: "))
+
+print("Square is:",a*a)
