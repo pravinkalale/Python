@@ -31,9 +31,16 @@
 # x = numbers.index(6)
 # print(x)
 
-# reversed method 
+# # reversed method 
+
+# numbers = (99,2,3,4,5,8,6,6,6,6,6)
+
+# t = tuple(reversed(numbers))
+# print(t)
+
+#sorted method 
 
 numbers = (99,2,3,4,5,8,6,6,6,6,6)
 
-t = tuple(reversed(numbers))
-print(t)
+s = tuple(sorted(numbers))
+print(s)
