@@ -26,12 +26,18 @@
 # x = list.count(9)
 # print(x)
 
-# index method
+# # index method
+
+# fruits = ['apple','banana','cherry']
+# x = fruits.index("cherry")
+# print(x)
+
+# list = [4,55,64,32,16,32]
+# x = list.index(32)
+# print(x)
+
+#insert method
 
 fruits = ['apple','banana','cherry']
-x = fruits.index("cherry")
-print(x)
-
-list = [4,55,64,32,16,32]
-x = list.index(32)
-print(x)
+fruits.insert(2,"orrange")
+print(fruits)
