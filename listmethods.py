@@ -16,8 +16,12 @@
 # x = fruits.copy()
 # print(x)
 
-# count method
+# # count method
 
-fruits = ["apple","banana","cherry"]
-x = fruits.count("cherry")
+# fruits = ["apple","banana","cherry"]
+# x = fruits.count("cherry")
+# print(x)
+
+list = [1,4,2,9,7,8,9,3,1]
+x = list.count(9)
 print(x)
