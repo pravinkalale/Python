@@ -19,8 +19,13 @@
 
 # Concatenation 
 
-list = [1,2,3] 
-list2 = [4,5,6]
-print(list + list2)   #concatenation 
-print(list*4)         #Repetition 
+# list = [1,2,3] 
+# list2 = [4,5,6]
+# print(list + list2)   #concatenation 
+# print(list*4)         #Repetition 
 
+lst = [1,2,3,4]
+sum= 0 
+for i in lst:
+    sum = sum + i
+print(sum)
