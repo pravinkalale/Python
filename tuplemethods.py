@@ -18,8 +18,15 @@
 # numbers = (99,2,3,4,5,8,6,6,6,6,6)
 # print(sum(numbers))
 
-# count method 
+# # count method 
+
+# numbers = (99,2,3,4,5,8,6,6,6,6,6)
+# x = numbers.count(6)
+# print(x)
+
+# index method 
 
 numbers = (99,2,3,4,5,8,6,6,6,6,6)
-x = numbers.count(6)
+
+x = numbers.index(6)
 print(x)
