@@ -58,12 +58,12 @@
 # fruits.reverse()
 # print(fruits)
 
-# sort method
+# # sort method
 
-cars = ['Ford','BMW','Volvo']
-cars.sort()  # sort the ascending order by default
-print(cars)
+# cars = ['Ford','BMW','Volvo']
+# cars.sort()  # sort the ascending order by default
+# print(cars)
 
-cars = ['Ford','BMW','Volvo']
-cars.sort(reverse=True)
-print(cars)
+# cars = ['Ford','BMW','Volvo']
+# cars.sort(reverse=True)
+# print(cars)
