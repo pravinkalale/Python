@@ -52,8 +52,18 @@
 # x = fruits.pop(1)  #return the removed element
 # print(x)
 
-# reverse method 
+# # reverse method 
 
-fruits = ['apple','banana','cherry']
-fruits.reverse()
-print(fruits)
+# fruits = ['apple','banana','cherry']
+# fruits.reverse()
+# print(fruits)
+
+# sort method
+
+cars = ['Ford','BMW','Volvo']
+cars.sort()  # sort the ascending order by default
+print(cars)
+
+cars = ['Ford','BMW','Volvo']
+cars.sort(reverse=True)
+print(cars)
