@@ -1,46 +1,47 @@
-# # len method 
+# len method 
 
-# numbers = (99,2,3,4,5,8,6,6,6,6,6)
-# print(len(numbers))
+numbers = (99,2,3,4,5,8,6,6,6,6,6)
+print(len(numbers))
 
-# # min method 
+# min method 
 
-# numbers = (99,2,3,4,5,8,6,6,6,6,6)
-# print(min(numbers))
+numbers = (99,2,3,4,5,8,6,6,6,6,6)
+print(min(numbers))
 
-# # max method
+# max method
 
-# numbers = (99,2,3,4,5,8,6,6,6,6,6)
-# print(max(numbers))
+numbers = (99,2,3,4,5,8,6,6,6,6,6)
+print(max(numbers))
 
-# # sum method 
+# sum method 
 
-# numbers = (99,2,3,4,5,8,6,6,6,6,6)
-# print(sum(numbers))
+numbers = (99,2,3,4,5,8,6,6,6,6,6)
+print(sum(numbers))
 
-# # count method 
+# count method 
 
-# numbers = (99,2,3,4,5,8,6,6,6,6,6)
-# x = numbers.count(6)
-# print(x)
+numbers = (99,2,3,4,5,8,6,6,6,6,6)
+x = numbers.count(6)
+print(x)
 
-# # index method 
+# index method 
 
-# numbers = (99,2,3,4,5,8,6,6,6,6,6)
+numbers = (99,2,3,4,5,8,6,6,6,6,6)
 
-# x = numbers.index(6)
-# print(x)
+x = numbers.index(6)
+print(x)
 
-# # reversed method 
+# reversed method 
 
-# numbers = (99,2,3,4,5,8,6,6,6,6,6)
+numbers = (99,2,3,4,5,8,6,6,6,6,6)
 
-# t = tuple(reversed(numbers))
-# print(t)
+t = tuple(reversed(numbers))
+print(t)
 
 #sorted method 
 
 numbers = (99,2,3,4,5,8,6,6,6,6,6)
 
-s = tuple(sorted(numbers))
+s = tuple(sorted(numbers))   # ascending order by default
+s = tuple(sorted(numbers,reverse=True))   #descending order 
 print(s)
