@@ -22,6 +22,16 @@
 # x = fruits.count("cherry")
 # print(x)
 
-list = [1,4,2,9,7,8,9,3,1]
-x = list.count(9)
+# list = [1,4,2,9,7,8,9,3,1]
+# x = list.count(9)
+# print(x)
+
+# index method
+
+fruits = ['apple','banana','cherry']
+x = fruits.index("cherry")
+print(x)
+
+list = [4,55,64,32,16,32]
+x = list.index(32)
 print(x)
