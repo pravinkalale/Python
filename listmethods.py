@@ -36,8 +36,18 @@
 # x = list.index(32)
 # print(x)
 
-#insert method
+# #insert method
+
+# fruits = ['apple','banana','cherry']
+# fruits.insert(2,"orrange")
+# print(fruits)
+
+#pop() method 
 
 fruits = ['apple','banana','cherry']
-fruits.insert(2,"orrange")
+fruits.pop(1)  #remove element at the specified position
 print(fruits)
+
+fruits = ['apple','banana','cherry']
+x = fruits.pop(1)  #return the removed element
+print(x)
