@@ -42,12 +42,18 @@
 # fruits.insert(2,"orrange")
 # print(fruits)
 
-#pop() method 
+# #pop() method 
+
+# fruits = ['apple','banana','cherry']
+# fruits.pop(1)  #remove element at the specified position
+# print(fruits)
+
+# fruits = ['apple','banana','cherry']
+# x = fruits.pop(1)  #return the removed element
+# print(x)
+
+# reverse method 
 
 fruits = ['apple','banana','cherry']
-fruits.pop(1)  #remove element at the specified position
+fruits.reverse()
 print(fruits)
-
-fruits = ['apple','banana','cherry']
-x = fruits.pop(1)  #return the removed element
-print(x)
