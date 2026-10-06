@@ -18,10 +18,18 @@
 # print(l[2])
 # print(l[4])
 
-# Q4. Using the same list, print 50, 40 and 20 using negative indexing.
+# # Q4. Using the same list, print 50, 40 and 20 using negative indexing.
 
-l = [10,20,30,40,50]
+# l = [10,20,30,40,50]
 
-print(l[-1])
-print(l[-2])
-print(l[-4])
+# print(l[-1])
+# print(l[-2])
+# print(l[-4])
+
+# Change 20 to 200.
+
+l = [10, 20, 30, 40]
+
+l[1]= 200
+
+print(l)
