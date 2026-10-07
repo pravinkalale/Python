@@ -31,7 +31,46 @@
 # print(mydict)
 
 
-# practice 
+# # practice 
+
+# student = {
+#     "name": "Pravin",
+#     "age": "22",
+#     "course": "MCA",
+#     "city": "Pune"
+# }
+
+# print(student["name"])   #print the dictionary 
+# print(student["age"])
+
+# student["age"] = 23       #update the values using key
+# print(student)
+
+# student["skill"] = "Python"    #adding the new item
+# print(student)   
+
+# print(student.keys())   #Access the all keys 
+
+# print(student.values())  #Access the all values
+
+# print(student.items())  #Access both key + value 
+
+# print(student.get("name"))  #Access particular values
+
+# print(student.get("salary"))   #get the none values if they not exitst in dict.
+
+# student.update({"age": 24, "skill": "Java"}) #Update method used
+# print(student)
+
+# student.pop("course")  #Specific key remove
+# print(student)
+
+# student.popitem()  #remove last item bydefault
+
+# student.clear() #remove all items
+# print(student)
+
+#Dictionary + Loop
 
 student = {
     "name": "Pravin",
@@ -40,15 +79,11 @@ student = {
     "city": "Pune"
 }
 
-print(student["name"])   #print the dictionary 
-print(student["age"])
-
-student["age"] = 23       #update the values using key
-print(student)
-
-student["skill"] = "Python"    #adding the new item
-print(student)   
-
-print(student.keys())   #Access the all keys 
-
-print(student.values())  #Access the all values
+for key in student:   #get keys using loop
+    print(key)
+    
+for value in student.values():   #get values using loop
+    print(value)
+    
+for key, value in student.items():  #get key + values both 
+    print(key, "=", value)
