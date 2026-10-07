@@ -13,18 +13,42 @@
 # print(my_dict.values())
 
 
-mydict = {
-    "id": 101,
-    "name": "pravin",
-    "Age": 23
+# mydict = {
+#     "id": 101,
+#     "name": "pravin",
+#     "Age": 23
     
-}
+# }
 
 # i = mydict.items()
 # print(i)
 
-mydict.setdefault("city","Pune")
-print(mydict)
+# mydict.setdefault("city","Pune") #add and access new value in dictionary using setdefault 
 
-mydict["city"]="mumbai"
-print(mydict)
+# print(mydict)
+
+# mydict["city"]="mumbai"  # change value in particular key
+# print(mydict)
+
+
+# practice 
+
+student = {
+    "name": "Pravin",
+    "age": "22",
+    "course": "MCA",
+    "city": "Pune"
+}
+
+print(student["name"])   #print the dictionary 
+print(student["age"])
+
+student["age"] = 23       #update the values using key
+print(student)
+
+student["skill"] = "Python"    #adding the new item
+print(student)   
+
+print(student.keys())   #Access the all keys 
+
+print(student.values())  #Access the all values
