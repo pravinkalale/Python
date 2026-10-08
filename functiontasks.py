@@ -44,12 +44,33 @@
 #     return a * b
 # print("Multiplication =", multiply(a, b))
 
-# Factorial using Function
+# # Factorial using Function
 
-n = int(input("Enter a number: "))
-def factorial(n):
-    fact = 1
-    for i in range(1, n + 1):
-        fact = fact * i
-    return fact
-print("Factorial =", factorial(n))
+# n = int(input("Enter a number: "))
+# def factorial(n):
+#     fact = 1
+#     for i in range(1, n + 1):
+#         fact = fact * i
+#     return fact
+# print("Factorial =", factorial(n))
+
+# Armstrong Number using Function
+
+num = int(input("Enter Number: "))
+
+def armstrong(num):
+
+    sum = 0
+    temp = num
+
+    while num > 0:
+        rem = num % 10
+        sum = sum + rem**3
+        num = num // 10
+
+    if temp == sum:
+        print("Given number is Armstrong number!")
+    else:
+        print("Given number is not Armstrong number!")
+
+armstrong(num)
