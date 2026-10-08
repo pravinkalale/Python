@@ -28,10 +28,18 @@
 #     return rev
 # print("Reverse =", reverse(n))
 
-# Addition using Function
+# # Addition using Function
+
+# a = int(input("Enter first number: "))
+# b = int(input("Enter second number: "))
+# def add(a, b):
+#     return a + b
+# print("Addition =", add(a, b))
+
+# Multiplication using Function
 
 a = int(input("Enter first number: "))
 b = int(input("Enter second number: "))
-def add(a, b):
-    return a + b
-print("Addition =", add(a, b))
+def multiply(a, b):
+    return a * b
+print("Multiplication =", multiply(a, b))
