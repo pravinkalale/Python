@@ -99,7 +99,7 @@ name = "pravin"
 
 print("s" in name)
 
-Identity Operator
+#Identity Operator
 
 a = 10
 b = a

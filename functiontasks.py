@@ -36,10 +36,20 @@
 #     return a + b
 # print("Addition =", add(a, b))
 
-# Multiplication using Function
+# # Multiplication using Function
 
-a = int(input("Enter first number: "))
-b = int(input("Enter second number: "))
-def multiply(a, b):
-    return a * b
-print("Multiplication =", multiply(a, b))
+# a = int(input("Enter first number: "))
+# b = int(input("Enter second number: "))
+# def multiply(a, b):
+#     return a * b
+# print("Multiplication =", multiply(a, b))
+
+# Factorial using Function
+
+n = int(input("Enter a number: "))
+def factorial(n):
+    fact = 1
+    for i in range(1, n + 1):
+        fact = fact * i
+    return fact
+print("Factorial =", factorial(n))
