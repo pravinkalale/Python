@@ -18,15 +18,15 @@
 
 # # Reverse a Number using Function
 
-n = int(input("Enter a number: "))
-def reverse(num):
-    rev = 0
-    while num > 0:
-        rem = num % 10
-        rev = rev * 10 + rem
-        num = num // 10
-    return rev
-print("Reverse =", reverse(n))
+# n = int(input("Enter a number: "))
+# def reverse(num):
+#     rev = 0
+#     while num > 0:
+#         rem = num % 10
+#         rev = rev * 10 + rem
+#         num = num // 10
+#     return rev
+# print("Reverse =", reverse(n))
 
 # # Addition using Function
 
@@ -74,3 +74,8 @@ print("Reverse =", reverse(n))
 #         print("Given number is not Armstrong number!")
 
 # armstrong(num)
+
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+
+print("sum:",a+b)
