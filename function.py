@@ -50,3 +50,7 @@
 # else:
 #     print("not palindrome")
     
+def show(name,city="Pune"):
+    print("hello my name is",name,"and i am from",city)
+show("Aryan")
+show("Ajinkya","Mumbai")
