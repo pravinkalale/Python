@@ -57,8 +57,25 @@
 # show("Aryan")
 # show("Ajinkya","Mumbai")
 
-def show(name,age,city):
-    print("my name is:",name,
-          "I'm",age,"years old",
-          "I'm leaving in:",city)
-show(name="pravin", age=23, city="Pune")
+# def show(name,age,city):
+#     print("my name is:",name,
+#           "I'm",age,"years old",
+#           "I'm leaving in:",city)
+# show(name="pravin", age=23, city="Pune")
+
+# def show(name,*value):      #variable length argument using(*)
+#     print(name,value)
+# show("Arya",10,20,30)
+# show("vihan",10,20,30,40,50)
+
+def show(*value):
+    total = 0
+    
+    for i in value:
+        total = total + i
+        
+    print("Total:",total)
+    
+show(10,20,30,40)  #100
+show(10,20)        #30
+show(10,20,30)     #60
