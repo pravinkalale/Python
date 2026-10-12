@@ -50,7 +50,15 @@
 # else:
 #     print("not palindrome")
     
-def show(name,city="Pune"):
-    print("hello my name is",name,"and i am from",city)
-show("Aryan")
-show("Ajinkya","Mumbai")
+#put two aruments and paramenter
+
+# def show(name,city="Pune"):
+#     print("hello my name is",name,"and i am from",city)
+# show("Aryan")
+# show("Ajinkya","Mumbai")
+
+def show(name,age,city):
+    print("my name is:",name,
+          "I'm",age,"years old",
+          "I'm leaving in:",city)
+show(name="pravin", age=23, city="Pune")
