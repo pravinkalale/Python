@@ -1,10 +1,3 @@
-# # arrange the students list based on marks 
-
-# students = [("Rahul",85), ("Amit",70), ("Priya",95)]
-
-# students.sort(key=lambda x: x[1])
-
-# print(students)
 
 # # addition using lambda function 
 
@@ -36,7 +29,11 @@
 # greatest = lambda a,b: a if a > b else b
 # print("greatest number:",greatest(20,50))
 
+# # check the even odd number 
 
+# check = lambda x : "Even Number" if x % 2 == 0 else "Odd Number"
+# print(check(12))
+# print((check(7)))
 
 # check num divisible by 5 or not 
 
@@ -45,8 +42,21 @@
 
 # # check login successfully or not 
 
-username = "kalale"
-correct_pass = "pravin123"
-password = lambda u,p: "Login successful" if u == username and  p == correct_pass else "Invalid person"
+# username = "kalale"
+# correct_pass = "pravin123"
+# password = lambda u,p: "Login successful" if u == username and  p == correct_pass else "Invalid person"
 
-print(password("kalale","pravin123"))
+# print(password("kalale","pravin123"))
+
+# check whether a number is zero or non zero
+
+zero = lambda x: "number is zero" if x == 0 else "Number is not zero"
+print(zero(5))
+
+# # arrange the students list based on marks 
+
+# students = [("Rahul",85), ("Amit",70), ("Priya",95)]
+
+# students.sort(key=lambda x: x[1])
+
+# print(students)
