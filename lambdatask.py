@@ -48,10 +48,15 @@
 
 # print(password("kalale","pravin123"))
 
-# check whether a number is zero or non zero
+# # check whether a number is zero or non zero
 
-zero = lambda x: "number is zero" if x == 0 else "Number is not zero"
-print(zero(5))
+# zero = lambda x: "number is zero" if x == 0 else "Number is not zero"
+# print(zero(5))
+
+#find the smaller of two numbers 
+
+smaller = lambda a,b : a if a < b else b
+print("Smaller number is:",smaller(80,455))
 
 # # arrange the students list based on marks 
 
