@@ -64,10 +64,15 @@
 
 # print(check(79))
 
-# Check pass or fail. Passing marks are 35 or more
+# # Check pass or fail. Passing marks are 35 or more
 
-marks = lambda M : "Pass" if M >= 35 else "Fail"
-print(marks(33))
+# marks = lambda M : "Pass" if M >= 35 else "Fail"
+# print(marks(33))
+
+# Check whether a number is a two-digit number (10–99)
+
+check = lambda n : "Two digit" if n <= 99 else "this is not two digit"
+print(check(10))
 
 # # arrange the students list based on marks 
 
