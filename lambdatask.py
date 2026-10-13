@@ -80,15 +80,10 @@
 
 # print(check(6))
 
-# Find the greatest among three numbers
+# # Find the greatest among three numbers
 
-greatest = lambda a,b,c: a if a > b and a > c else(b if b > a and b > c else c)
-print(greatest(50,70,20))
+# greatest = lambda a,b,c: a if a > b and a > c else(b if b > a and b > c else c)
+# print(greatest(50,70,20))
 
-# # arrange the students list based on marks 
 
-# students = [("Rahul",85), ("Amit",70), ("Priya",95)]
 
-# students.sort(key=lambda x: x[1])
-
-# print(students)
