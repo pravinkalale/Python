@@ -6,12 +6,12 @@
 
 # print(greatest(10, 20))
 
-#positive number 
+# #positive number 
 
-positive = lambda num: "Positive" if num > 0 else "Negative"
+# positive = lambda num: "Positive" if num > 0 else "Negative"
 
-print(positive(5))
-print(positive(-3))
+# print(positive(5))
+# print(positive(-3))
 
 # # square find out 
 
@@ -24,3 +24,4 @@ print(positive(-3))
 # cube = lambda num: num * num * num
 
 # print(cube(3))
+
