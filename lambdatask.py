@@ -53,10 +53,16 @@
 # zero = lambda x: "number is zero" if x == 0 else "Number is not zero"
 # print(zero(5))
 
-#find the smaller of two numbers 
+# #find the smaller of two numbers 
 
-smaller = lambda a,b : a if a < b else b
-print("Smaller number is:",smaller(80,455))
+# smaller = lambda a,b : a if a < b else b
+# print("Smaller number is:",smaller(80,455))
+
+# Check whether a number is divisible by both 5 and 10
+
+check = lambda x: "Divisible by 5 and 10" if x % 5 == 0 and x % 10 == 0 else "Not divisible by 5 and 10"
+
+print(check(79))
 
 # # arrange the students list based on marks 
 
