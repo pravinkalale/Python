@@ -1,89 +1,89 @@
 
-# # addition using lambda function 
+# 1) addition using lambda function 
 
-# add = lambda a,b: a+b
-# print(add(10,20))
+add = lambda a,b: a+b
+print(add(10,20))
 
-# # Multiplication using lamda function 
+# 2) Multiplication using lamda function 
 
-# mul = lambda a,b: a*b
-# print(mul(10,20))
+mul = lambda a,b: a*b
+print(mul(10,20))
 
-# # check eligibile for vote 
+# 3) check eligibile for vote 
 
-# vote = lambda age: "Eligibile for vote" if age >= 18 else "Minor"
-# print(vote(23))
+vote = lambda age: "Eligibile for vote" if age >= 18 else "Minor"
+print(vote(23))
 
-# #Find the square of 8 using lambda.
+# 4) Find the square of 8 using lambda.
 
-# square = lambda x: x*x
-# print(square(8))
+square = lambda x: x*x
+print(square(8))
 
-# #Add three numbers using lambda 
+# 5) Add three numbers using lambda 
 
-# add = lambda a,b,c: a+b+c
-# print(add(10,20,30))
+add = lambda a,b,c: a+b+c
+print(add(10,20,30))
 
-# #Find the greatest of two numbers using lambda
+# 6) Find the greatest of two numbers using lambda
 
-# greatest = lambda a,b: a if a > b else b
-# print("greatest number:",greatest(20,50))
+greatest = lambda a,b: a if a > b else b
+print("greatest number:",greatest(20,50))
 
-# # check the even odd number 
+# 7) check the even odd number 
 
-# check = lambda x : "Even Number" if x % 2 == 0 else "Odd Number"
-# print(check(12))
-# print((check(7)))
+check = lambda x : "Even Number" if x % 2 == 0 else "Odd Number"
+print(check(12))
+print((check(7)))
 
-# check num divisible by 5 or not 
+# 8) check num divisible by 5 or not 
 
-# divisible = lambda n: "Divisible by 5" if n % 5 == 0 else "Not divisible by 5"
-# # print(divisible(25))
+divisible = lambda n: "Divisible by 5" if n % 5 == 0 else "Not divisible by 5"
+# print(divisible(25))
 
-# # check login successfully or not 
+# 9) check login successfully or not 
 
-# username = "kalale"
-# correct_pass = "pravin123"
-# password = lambda u,p: "Login successful" if u == username and  p == correct_pass else "Invalid person"
+username = "kalale"
+correct_pass = "pravin123"
+password = lambda u,p: "Login successful" if u == username and  p == correct_pass else "Invalid person"
 
-# print(password("kalale","pravin123"))
+print(password("kalale","pravin123"))
 
-# # check whether a number is zero or non zero
+# 10) check whether a number is zero or non zero
 
-# zero = lambda x: "number is zero" if x == 0 else "Number is not zero"
-# print(zero(5))
+zero = lambda x: "number is zero" if x == 0 else "Number is not zero"
+print(zero(5))
 
-# #find the smaller of two numbers 
+# 11) find the smaller of two numbers 
 
-# smaller = lambda a,b : a if a < b else b
-# print("Smaller number is:",smaller(80,455))
+smaller = lambda a,b : a if a < b else b
+print("Smaller number is:",smaller(80,455))
 
-# # Check whether a number is divisible by both 5 and 10
+# 12) Check whether a number is divisible by both 5 and 10
 
-# check = lambda x: "Divisible by 5 and 10" if x % 5 == 0 and x % 10 == 0 else "Not divisible by 5 and 10"
+check = lambda x: "Divisible by 5 and 10" if x % 5 == 0 and x % 10 == 0 else "Not divisible by 5 and 10"
 
-# print(check(79))
+print(check(79))
 
-# # Check pass or fail. Passing marks are 35 or more
+# 13) Check pass or fail. Passing marks are 35 or more
 
-# marks = lambda M : "Pass" if M >= 35 else "Fail"
-# print(marks(33))
+marks = lambda M : "Pass" if M >= 35 else "Fail"
+print(marks(33))
 
-# # Check whether a number is a two-digit number (10–99)
+# 14) Check whether a number is a two-digit number (10–99)
 
-# check = lambda n : "Two digit" if n <= 99 else "this is not two digit"
-# print(check(10))
+check = lambda n : "Two digit" if n <= 99 else "this is not two digit"
+print(check(10))
 
-# # Check whether a number is positive, negative, or zero
+# 15) Check whether a number is positive, negative, or zero
 
-# check = lambda x : "Positive Number" if x > 0  else("Negative Number" if x < 0 else "Number is zero")
+check = lambda x : "Positive Number" if x > 0  else("Negative Number" if x < 0 else "Number is zero")
 
-# print(check(6))
+print(check(6))
 
-# # Find the greatest among three numbers
+# 16) Find the greatest among three numbers
 
-# greatest = lambda a,b,c: a if a > b and a > c else(b if b > a and b > c else c)
-# print(greatest(50,70,20))
+greatest = lambda a,b,c: a if a > b and a > c else(b if b > a and b > c else c)
+print(greatest(50,70,20))
 
 
 
