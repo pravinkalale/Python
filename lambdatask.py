@@ -69,10 +69,21 @@
 # marks = lambda M : "Pass" if M >= 35 else "Fail"
 # print(marks(33))
 
-# Check whether a number is a two-digit number (10–99)
+# # Check whether a number is a two-digit number (10–99)
 
-check = lambda n : "Two digit" if n <= 99 else "this is not two digit"
-print(check(10))
+# check = lambda n : "Two digit" if n <= 99 else "this is not two digit"
+# print(check(10))
+
+# # Check whether a number is positive, negative, or zero
+
+# check = lambda x : "Positive Number" if x > 0  else("Negative Number" if x < 0 else "Number is zero")
+
+# print(check(6))
+
+# Find the greatest among three numbers
+
+greatest = lambda a,b,c: a if a > b and a > c else(b if b > a and b > c else c)
+print(greatest(50,70,20))
 
 # # arrange the students list based on marks 
 
