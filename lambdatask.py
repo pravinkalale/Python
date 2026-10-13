@@ -58,11 +58,16 @@
 # smaller = lambda a,b : a if a < b else b
 # print("Smaller number is:",smaller(80,455))
 
-# Check whether a number is divisible by both 5 and 10
+# # Check whether a number is divisible by both 5 and 10
 
-check = lambda x: "Divisible by 5 and 10" if x % 5 == 0 and x % 10 == 0 else "Not divisible by 5 and 10"
+# check = lambda x: "Divisible by 5 and 10" if x % 5 == 0 and x % 10 == 0 else "Not divisible by 5 and 10"
 
-print(check(79))
+# print(check(79))
+
+# Check pass or fail. Passing marks are 35 or more
+
+marks = lambda M : "Pass" if M >= 35 else "Fail"
+print(marks(33))
 
 # # arrange the students list based on marks 
 
