@@ -29,3 +29,22 @@
 # for i in lst:
 #     sum = sum + i
 # print(sum)
+
+data = [(2,5,1), (4,3,2), (6,2,5), (3,3,3)]
+
+max_sum = 0
+result = ()
+
+for i in data:
+    total = 0
+
+    for j in i:
+        total = total + j
+
+    if total > max_sum:
+        max_sum = total
+        result = i
+
+print("Tuple:", result)
+print("Highest sum:", max_sum)
+
