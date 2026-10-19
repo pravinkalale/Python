@@ -23,8 +23,7 @@
 # t[6] = 20
 # print(t)
 
-l = [10,35,"hello",49]
-print(l)
-print(type(l))
-l[3] = 50
-print(l)
+
+
+tuple = (99,2,3,4,5,8,6,6,6,6,6)
+print(len(tuple))
