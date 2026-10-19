@@ -28,3 +28,4 @@
 tuple = (99,2,3,4,5,8,6,6,6,6,6)
 print(len(tuple))
 print(min(tuple))
+print(max(tuple))
