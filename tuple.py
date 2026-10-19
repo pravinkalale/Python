@@ -25,12 +25,14 @@
 
 
 
-tuple = (99,2,3,4,5,8,6,6,6,6,6)
-print(len(tuple))
-print(min(tuple))
-print(max(tuple))
-print(sum(tuple))
-cnt = tuple.count(6)
+tuple1 = (99,2,3,4,5,8,6,6,6,6,6)
+print(len(tuple1))
+print(min(tuple1))
+print(max(tuple1))
+print(sum(tuple1))
+cnt = tuple1.count(6)
 print(cnt)
-ind = tuple.index(2)
+ind = tuple1.index(2)
 print(ind)
+t = tuple(reversed(tuple1))
+print(t)
