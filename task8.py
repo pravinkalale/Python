@@ -12,16 +12,29 @@
 # print(result)
 
 
-a = 7
-b = 2
-if a*b >= 10:
-    print("Big")
-else:
-    print("small")
+# a = 7
+# b = 2
+# if a*b >= 10:
+#     print("Big")
+# else:
+#     print("small")
     
     
-import calendar
-year = int(input("ENTER YEAR: "))
-month = int(input("ENTER MONTH: "))
+# import calendar
+# year = int(input("ENTER YEAR: "))
+# month = int(input("ENTER MONTH: "))
 
-print("\n",calendar.month(year,month))
+# print("\n",calendar.month(year,month))
+
+
+
+for row in range(6):
+    for col in range(7):
+        if (row == 0 and col % 3 != 0) or \
+           (row == 1 and col % 3 == 0) or \
+           (row - col == 2) or \
+           (row + col == 8):
+            print("*", end=" ")
+        else:
+            print(" ", end=" ")
+    print()
