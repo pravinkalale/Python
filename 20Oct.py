@@ -100,9 +100,20 @@
 
 ## 8) Krishna : output : k|r|i|s|h|n|a|
 
-a = "krishna"
+# a = "krishna"
 
+# for i in a:
+#     print(i,end="|")
+    
+    
+# 9) count a frequency of given string : Programming 
+
+a = "Programming"
 for i in a:
-    print(i,end="|")
+    count = 0
     
-    
+    for j in a:
+        if i == j:
+            count += 1
+            
+    print(i,count)
