@@ -118,18 +118,28 @@
             
 #     print(i,count)
 
-# 10)  input - python \ output - char  +ve index  -ve index 
+# # 10)  input - python \ output - char  +ve index  -ve index 
 
-a = input("Enter string: ")
+# a = input("Enter string: ")
 
-count = 0
-for i in a:
-    count +=1
+# count = 0
+# for i in a:
+#     count +=1
 
-print("char\t +ve index\t -ve index")
+# print("char\t +ve index\t -ve index")
 
-index = 0
+# index = 0
 
-for i in a:
-    print(i,"\t", index, "\t\t", index - count)
-    index += 1
+# for i in a:
+#     print(i,"\t", index, "\t\t", index - count)
+#     index += 1
+    
+    
+## 11) checks  whether s string is palindrome or not
+
+s1 = "mom"
+s2 = s1[: :-1]
+if s1 == s2:
+    print("Given string is palindrome")
+else:
+    print("Given string is not palindrome")
