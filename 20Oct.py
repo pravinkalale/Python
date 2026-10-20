@@ -106,14 +106,30 @@
 #     print(i,end="|")
     
     
-# 9) count a frequency of given string : Programming 
+# # 9) count a frequency of given string : Programming 
 
-a = "Programming"
-for i in a:
-    count = 0
+# a = "Programming"
+# for i in a:
+#     count = 0
     
-    for j in a:
-        if i == j:
-            count += 1
+#     for j in a:
+#         if i == j:
+#             count += 1
             
-    print(i,count)
+#     print(i,count)
+
+# 10)  input - python \ output - char  +ve index  -ve index 
+
+a = input("Enter string: ")
+
+count = 0
+for i in a:
+    count +=1
+
+print("char\t +ve index\t -ve index")
+
+index = 0
+
+for i in a:
+    print(i,"\t", index, "\t\t", index - count)
+    index += 1
