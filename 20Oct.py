@@ -1,171 +1,178 @@
-# 1) vowels count 
+# # 1) vowels count 
 
-s = "programming"
-count = 0
-for ch in s:
-    if (ch == 'a' or ch == 'e' or ch == 'i' or ch == 'o' or ch == 'u'):
-        count += 1
-print("Total count is :- ",count)
+# s = "programming"
+# count = 0
+# for ch in s:
+#     if (ch == 'a' or ch == 'e' or ch == 'i' or ch == 'o' or ch == 'u'):
+#         count += 1
+# print("Total count is :- ",count)
 
 
-# 2) print vowels in string
+# # 2) print vowels in string
 
-s = "programming"
-for ch in s:
-    if (ch == 'a' or ch == 'e' or ch == 'i' or ch == 'o' or ch == 'u'):
-        print("Total vowels is :- ",ch) 
+# s = "programming"
+# for ch in s:
+#     if (ch == 'a' or ch == 'e' or ch == 'i' or ch == 'o' or ch == 'u'):
+#         print("Total vowels is :- ",ch) 
         
         
-## 3) Count Spaces in a String
+# ## 3) Count Spaces in a String
 
-s = "python is programming lang"
-count = 0
+# s = "python is programming lang"
+# count = 0
 
-for ch in s:
-    if ch == ' ':
-        count += 1
-print("Total spaces are: ",count)
-
-
-## 4)  Count the Occurrences of a Particular Character
-
-s = "programming"
-count = 0
-
-for ch in s:
-    if ch == "m":
-        count += 1
-print("Total count is: ",count)
+# for ch in s:
+#     if ch == ' ':
+#         count += 1
+# print("Total spaces are: ",count)
 
 
-## 5) to check the given string is anagram or not.
+# ## 4)  Count the Occurrences of a Particular Character
 
-a = input("Enter first string: ")
-b = input("Enter Second string: ")
+# s = "programming"
+# count = 0
 
-if len(a) != len(b):
-    print("Not Anagram")
-else:
-    for i in a:
-        count1 = 0
-        count2 = 0
+# for ch in s:
+#     if ch == "m":
+#         count += 1
+# print("Total count is: ",count)
+
+
+# ## 5) to check the given string is anagram or not.
+
+# a = input("Enter first string: ")
+# b = input("Enter Second string: ")
+
+# if len(a) != len(b):
+#     print("Not Anagram")
+# else:
+#     for i in a:
+#         count1 = 0
+#         count2 = 0
         
-        for j in a: 
-            if i == j:
-                count1 += 1
+#         for j in a: 
+#             if i == j:
+#                 count1 += 1
         
-        for k in b:
-            if i == k:
-                count2 += 1
+#         for k in b:
+#             if i == k:
+#                 count2 += 1
         
-        if count1 != count2:
-            print("Not Anagram")
-            break
+#         if count1 != count2:
+#             print("Not Anagram")
+#             break
         
-    else:
-        print("Anagram")
+#     else:
+#         print("Anagram")
 
 
-# 6) to reverse a given string e.g Python
+# # 6) to reverse a given string e.g Python
 
-# with slicing
-a = "Python"
+# # with slicing
+# a = "Python"
 
-b = a[: : -1]
-print(b)
+# b = a[: : -1]
+# print(b)
 
-a = "python"
-b = ""
+# ## without slicing
 
-## without slicing 
-for i in a:
-    b = i + b
-print(b)
+# a = "python"
+# b = ""
+ 
+# for i in a:
+#     b = i + b
+# print(b)
 
-# 7) "hello how are you" reverse a string  
+# # 7) "hello how are you" reverse a string  
 
-a = "hello how are you"
-b = ""
-word = ""
+# a = "hello how are you"
+# b = ""
+# word = ""
 
-for i in a:
-    if i != " ":
-        word = word + i
-    else:
-        b = word + " " + b
-        word = ""
+# for i in a:
+#     if i != " ":
+#         word = word + i
+#     else:
+#         b = word + " " + b
+#         word = ""
 
-b = word + " " + b
-print(b[:-1])
+# b = word + " " + b
+# print(b[:-1])
 
-# 8) Krishna : output : k|r|i|s|h|n|a|
+# # 8) Krishna : output : k|r|i|s|h|n|a|
 
-a = "krishna"
+# a = "krishna"
 
-for i in a:
-    print(i,end="|")
+# for i in a:
+#     print(i,end="|")
     
     
-# 9) count a frequency of given string : Programming 
+# # 9) count a frequency of given string : Programming 
 
-a = "Programming"
-for i in a:
-    count = 0
+# a = "Programming"
+# for i in a:                 # i for characters
+#     count = 0
     
-    for j in a:
-        if i == j:
-            count += 1
+#     for j in a:             # j for count numbers
+#         if i == j:
+#             count += 1
             
-    print(i,count)
+#     print(i,count)
 
-# 10)  input - python \ output - char  +ve index  -ve index 
+# # 10)  input - python \ output - char  +ve index  -ve index 
 
-a = input("Enter string: ")
+# a = input("Enter string: ")
 
-count = 0
-for i in a:
-    count +=1
+# count = 0
+# for i in a:
+#     count +=1
 
-print("char\t +ve index\t -ve index")
+# print("char\t +ve index\t -ve index")
 
-index = 0
+# index = 0
 
-for i in a:
-    print(i,"\t", index, "\t\t", index - count)
-    index += 1
+# for i in a:
+#     print(i,"\t", index, "\t\t", index - count)
+#     index += 1
     
     
-# 11) checks  whether s string is palindrome or not
+# # 11) checks  whether s string is palindrome or not
 
-s1 = "mom"
-s2 = s1[: :-1]
-if s1 == s2:
-    print("Given string is palindrome")
-else:
-    print("Given string is not palindrome")
+# s1 = "mom"
+# s2 = s1[: :-1]
+# if s1 == s2:
+#     print("Given string is palindrome")
+# else:
+#     print("Given string is not palindrome")
 
-# 12) convert lowercase to uppercase
+# # 12) convert lowercase to uppercase
 
-a = input("Enter string: ")
-b = ""
+# a = input("Enter string: ")
+# b = ""
 
-for i in a:
-    if 'a' <= i <= 'z':
-        b = b + chr(ord(i) -32)
-    else:
-        b = b + i
+# for i in a:
+#     if 'a' <= i <= 'z':
+#         b = b + chr(ord(i) -32)
+#     else:
+#         b = b + i
         
-print("Uppercase:",b)
+# print("Uppercase:",b)
 
-# convert uppercase to loawercase
+# # 13) convert uppercase to loawercase
 
-a = input("Enter a string: ") 
-b = ""
+# a = input("Enter a string: ") 
+# b = ""
 
-for i in a:
-    if 'A' <= i and i <= 'Z':
-        b = b + chr(ord(i) + 32)
-    else: 
-        b = b + i
+# for i in a:
+#     if 'A' <= i and i <= 'Z':
+#         b = b + chr(ord(i) + 32)
+#     else: 
+#         b = b + i
         
-print("Lowercase:",b)
+# print("Lowercase:",b)
+
+# a = input("Enter string: ")
+
+# b = a.upper()
+
+# print(b)
