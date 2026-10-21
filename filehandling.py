@@ -39,6 +39,10 @@
 # f = open("demo1.txt","x")
 # f.close()
 
-f = open("demo1.txt","w")
-f.write("hii Priya")
-f.close()
+# f = open("demo1.txt","w")
+# f.write("hii Priya\n")
+# f.close()
+
+
+import os
+os.remove("demo1.txt")
