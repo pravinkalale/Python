@@ -28,6 +28,18 @@
 #         if line.strip() != "i am from nanded":
 #             f.write(line)
 
+# with open("pravin.txt","r") as f:
+#     data = f.read()
+#     print(data)
+
+with open("pravin.txt","r") as f:
+    lines = f.readlines()
+    
+with open("pravin.txt","w") as f:
+    for i in range(len(lines)):
+        if i != 1:
+            f.write(lines[i])
+            
 with open("pravin.txt","r") as f:
     data = f.read()
     print(data)
