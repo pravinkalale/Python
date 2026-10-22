@@ -1,1 +1,1 @@
-Hello python
+python is a high level language and easy to understand.
