@@ -55,14 +55,20 @@ f.close()
 # else:
 #     print("the file does not exit")
 
-f = open("demo.txt","a")
-f.write("i have a completed MCA\n")
-f.close()
+# f = open("demo.txt","a")
+# f.write("i have a completed MCA\n")
+# f.close()
 
 # f = open("demo.txt","r")
 # print(f.readline())
 # print(f.readline())
 
 
-f = open("demo.txt","r")
-print(f.readlines())
+# f = open("demo.txt","r")
+# print(f.readlines())
+
+#with statement
+with open("demo.txt","r") as f:
+    content = f.read();
+    print(content)
+        
