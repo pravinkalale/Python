@@ -12,10 +12,12 @@
 
 # with statement
 
-with open("pravin.txt","r") as f:
-    data = f.read()
-    print(data)
+# with open("pravin.txt","r") as f:
+#     data = f.read()
+#     print(data)
     
 # with open("pravin.txt","a") as f:
 #     f.write("\n i'm learning python programming")
     
+from random import randint
+print(randint(1,10))
