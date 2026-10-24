@@ -30,7 +30,7 @@
 #     b = int(input("Enter a number: "))
 #     print(a/b)
 # except ZeroDivisionError:
-#     print("Cannot divide by zero")
+#     print("Cannot divide by zero") 
 # except ValueError:
 #     print("Invalid input. Please enter a valid number.")
  
