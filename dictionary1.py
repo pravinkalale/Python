@@ -32,12 +32,29 @@
 # c = Mydict.copy()
 # print(c)
 
-#pop() method
+# #pop() method
 
-Mydict = {
-    "Id": 101,
+# Mydict = {
+#     "Id": 101,
+#     "Name": "Merry",
+#     "Age": 19
+# }
+# Mydict.pop("Age")
+# print(Mydict)
+
+# #sorted() method 
+
+# names = {1:'Pune', 2:'Satara', 3:'Sangali', 4:'Nanded'}
+# print(sorted(names.keys()))
+# print(sorted(names.items()))
+# print(sorted(names.values()))
+
+#items() method 
+
+mydict = {
+    "id": 101,
     "Name": "Merry",
     "Age": 19
 }
-Mydict.pop("Age")
-print(Mydict)
+i = mydict.items()
+print(i)
