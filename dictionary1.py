@@ -51,10 +51,40 @@
 
 #items() method 
 
+# mydict = {
+#     "id": 101,
+#     "Name": "Merry",
+#     "Age": 19
+# }
+# i = mydict.items()
+# print(i)
+
+#popitem() method 
+
+# mydict = {
+#     "id": 101,
+#     "Name": "Merry",
+#     "Age": 19
+# }
+# p = mydict.popitem()
+# print(p)
+
+# #update() method
+
+# mydict = {
+#     "id": 101,
+#     "Name":"Merry",
+#     "Age": 19
+# }
+# mydict.update({"city":"Pune"})
+# print(mydict)
+
+#setdefault() method 
+
 mydict = {
     "id": 101,
-    "Name": "Merry",
+    "Name":"Merry",
     "Age": 19
-}
-i = mydict.items()
-print(i)
+}    
+mydict.setdefault("City","Pune")
+print(mydict)
