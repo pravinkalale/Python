@@ -53,12 +53,22 @@
 #         print("Finally executed")
 # print(test())
 
-# 7) code after exception 
+# # 7) code after exception 
 
+# try:
+#     print("One")
+#     x = 10/0
+#     print("Two")
+# except ZeroDivisionError:
+#     print("Three")
+# print("Four")
+
+# 8) raise keyword
+
+age = 16
 try:
-    print("One")
-    x = 10/0
-    print("Two")
-except ZeroDivisionError:
-    print("Three")
-print("Four")
+    if age < 18:
+        raise ValueError("underage")
+    print("Eligible")
+except ValueError as e:
+    print(e)
