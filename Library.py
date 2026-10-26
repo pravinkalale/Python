@@ -41,20 +41,20 @@
 
 #reshape into two dimensional array
 
-import numpy as np
-a = np.array([1,2,3,4,5,6,7,8,9,10,11,12])
-na = a.reshape(4,3)
-print(na)
+# import numpy as np
+# a = np.array([1,2,3,4,5,6,7,8,9,10,11,12])
+# na = a.reshape(4,3)
+# print(na)
 
 #convert into multidimensional
 
-naa = a.reshape(2,2,3)
-print(na)
+# naa = a.reshape(2,2,3)
+# print(na)
 
 #search element
-a = np.array([1,2,3,4,5,4,4])
-n = np.where(a==4)
-print(n)
+# a = np.array([1,2,3,4,5,4,4])
+# n = np.where(a==4)
+# print(n)
 
 # #count duplicate elements
 
@@ -63,8 +63,24 @@ print(n)
 # values, counts = np.unique(a, return_counts=True)
 # print(dict(zip(values, counts)))
 
-a = np.array([1,2,3,4,5,6,7,8])
-x = np.where(a%2 == 0)
-print(x)
+# a = np.array([1,2,3,4,5,6,7,8])
+# x = np.where(a%2 == 0)
+# print(x)
 
-print(np.sort(a)) 
+# print(np.sort(a)) 
+
+
+import numpy as np
+x = np.array([3, 5]) 
+y = np.array([2, 5])
+print("Original numbers")
+print(x)
+print(y)
+print("Comparison greater")
+print(np.greater(x, y)) # [ True False]
+print("Comparison greater_equal")
+print(np.greater_equal(x, y)) # [True True]
+print("Comparison less")
+print(np.less(x, y)) # False False]
+print("Comparison less_equal")
+print(np.less_equal(x, y)) # [False True]
