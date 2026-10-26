@@ -44,11 +44,21 @@
 # finally:
 #     print("C")
 
-# 6) return and finally
+# # 6) return and finally
 
-def test():
-    try:
-        return 10
-    finally:
-        print("Finally executed")
-print(test())
+# def test():
+#     try:
+#         return 10
+#     finally:
+#         print("Finally executed")
+# print(test())
+
+# 7) code after exception 
+
+try:
+    print("One")
+    x = 10/0
+    print("Two")
+except ZeroDivisionError:
+    print("Three")
+print("Four")
