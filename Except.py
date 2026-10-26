@@ -25,11 +25,21 @@
 # except ZeroDivisionError:
 #     print("Division Error")
 
-# 4) else block
+# # 4) else block
+
+# try:
+#     x = 10 + 5
+# except ValueError:
+#     print("Error")
+# else:
+#     print("Result:",x)
+
+# 5) finally block
 
 try:
-    x = 10 + 5
-except ValueError:
-    print("Error")
-else:
-    print("Result:",x)
+    print("A")
+    print(10/0)
+except ZeroDivisionError:
+    print("B")
+finally:
+    print("C")
