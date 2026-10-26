@@ -14,13 +14,22 @@
 # except ValueError:
 #     print("invalid value")
 
-# 3) Multiple except blocks
+# # 3) Multiple except blocks
+
+# try:
+#     a = int("10")
+#     b = 0 
+#     print(a/b)
+# except ValueError:
+#     print("Value Error")
+# except ZeroDivisionError:
+#     print("Division Error")
+
+# 4) else block
 
 try:
-    a = int("10")
-    b = 0 
-    print(a/b)
+    x = 10 + 5
 except ValueError:
-    print("Value Error")
-except ZeroDivisionError:
-    print("Division Error")
+    print("Error")
+else:
+    print("Result:",x)
