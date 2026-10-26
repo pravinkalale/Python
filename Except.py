@@ -34,12 +34,21 @@
 # else:
 #     print("Result:",x)
 
-# 5) finally block
+# # 5) finally block
 
-try:
-    print("A")
-    print(10/0)
-except ZeroDivisionError:
-    print("B")
-finally:
-    print("C")
+# try:
+#     print("A")
+#     print(10/0)
+# except ZeroDivisionError:
+#     print("B")
+# finally:
+#     print("C")
+
+# 6) return and finally
+
+def test():
+    try:
+        return 10
+    finally:
+        print("Finally executed")
+print(test())
