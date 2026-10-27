@@ -77,6 +77,15 @@
 
 #with generator
 
-g = (x*x for x in 
-     range(1000000))
-print(next(g))
+# g = (x*x for x in 
+#      range(1000000))
+# print(next(g))
+
+def mygen():
+     yield 1
+     yield 2
+     yield 3
+     yield 4
+g = mygen()
+for i in g:
+     print(i)
