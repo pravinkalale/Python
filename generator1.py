@@ -21,16 +21,16 @@ students = ["Amit", "Rahul", "Priya"]
 
 #To generate fibonacci numbers using normal function and generator function 
 
-def fibonacci(n):
-    a = 0
-    b = 1
+# def fibonacci(n):
+#     a = 0
+#     b = 1
     
-    for i in range(n):
-        print(a)
-        c = a + b
-        a = b
-        b = c
-fibonacci(10)
+#     for i in range(n):
+#         print(a)
+#         c = a + b
+#         a = b
+#         b = c
+# fibonacci(10)
 
 
 # def fibonacci(n):
@@ -42,3 +42,18 @@ fibonacci(10)
 #         b = c
 #     print(a)
 # fibonacci(5)
+
+#With generator function 
+
+def fibonacci(n):
+    a = 0 
+    b = 1
+    
+    for i in range(n):
+        yield a
+        c = a + b
+        a = b 
+        b = c
+        
+for num in fibonacci(10):
+    print(num)
