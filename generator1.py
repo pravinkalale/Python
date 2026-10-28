@@ -1,4 +1,4 @@
-students = ["Amit", "Rahul", "Priya"]
+# students = ["Amit", "Rahul", "Priya"]
  
 # for i in students:    #this is iterable
 #     print(i)
@@ -9,7 +9,7 @@ students = ["Amit", "Rahul", "Priya"]
 # print(next(iterator))
 # print(next(iterator))
 
-# def students():            #this id generator function
+# def students():            #this is generator function
 #     yield "Amit"
 #     yield "Rahul"
 #     yield "Priya"
@@ -43,17 +43,48 @@ students = ["Amit", "Rahul", "Priya"]
 #     print(a)
 # fibonacci(5)
 
-#With generator function 
+# #With generator function 
+
+# def fibonacci(n):
+#     a = 0 
+#     b = 1
+    
+#     for i in range(n):
+#         yield a
+#         c = a + b
+#         a = b 
+#         b = c
+        
+# for num in fibonacci(10):
+#     print(num)
+    
+
+# def fibonacci(n):
+#     a = 0 
+#     b = 1
+#     i = 0
+#     while i < n:
+#         print(a)
+#         c = a + b
+#         a = b 
+#         b = c
+        
+#         i = i + 1
+    
+# fibonacci(10)
+
 
 def fibonacci(n):
     a = 0 
     b = 1
-    
-    for i in range(n):
+    i = 0
+    while i < n:
         yield a
         c = a + b
         a = b 
         b = c
         
+        i = i + 1
+    
 for num in fibonacci(10):
     print(num)
