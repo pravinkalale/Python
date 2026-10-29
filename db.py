@@ -45,15 +45,92 @@
 
 """Fetch all data"""
 
+# import sqlite3 as sq 
+# con = sq.connect("pmk.db")
+# cur = con.cursor()
+
+# cur.execute("SELECT * FROM employees")
+# data = cur.fetchall()
+
+# for row in data:
+#     print(row)
+    
+# con.commit()
+# con.close()
+
+"""fetch one particular data"""
+
+# import sqlite3 as sq 
+# con = sq.connect("pmk.db")
+# cur = con.cursor()
+
+# cur.execute("SELECT * FROM employees WHERE id = 4")
+# data = cur.fetchone()
+# print(data)
+
+# con.commit()
+# con.close()
+    
+"""fetch many data"""
+
+# import sqlite3 as sq 
+# con = sq.connect("pmk.db")
+# cur = con.cursor()
+
+# cur.execute("SELECT * FROM employees")
+# data = cur.fetchmany(3)
+
+# for row in data:
+#     print(row)
+    
+# con.commit()
+# con.close()
+
+"""update data in table"""
+
+# import sqlite3 as sq 
+
+# con = sq.connect("pmk.db")
+# cur = con.cursor()
+
+
+# cur.execute("UPDATE employees SET Name= 'Shubham' WHERE id= 2")
+
+# con.commit()
+# con.close()
+
+"""Delete particular data in table"""
+
+# import sqlite3 as sq 
+
+# con = sq.connect("pmk.db")
+# cur = con.cursor()
+
+# cur.execute("DELETE FROM employees WHERE id = 4")
+
+# cur.execute("SELECT * FROM employees")
+# data = cur.fetchall()
+
+# for row in data:
+#     print(row)
+
+# con.commit()
+# con.close()
+
+"""update the id """
+
 import sqlite3 as sq 
+
 con = sq.connect("pmk.db")
 cur = con.cursor()
 
-cur.execute("SELECT * FROM employees")
+cur.execute("update employees set id= 4 where id = 5")
+
+cur.execute("select * from employees")
 data = cur.fetchall()
 
-for row in data:
-    print(row)
-    
+for i in data:
+    print(i)
+
 con.commit()
 con.close()
