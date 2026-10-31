@@ -1,3 +1,5 @@
+# One Parent class and multiple child class
+
 class Animal:
     def eat(self):
         print("Animal can eat")

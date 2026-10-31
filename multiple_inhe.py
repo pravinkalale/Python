@@ -1,3 +1,5 @@
+# one child class and multiple parent class 
+
 class Calculation1:
     def Summation(self,a,b):
         return a + b;

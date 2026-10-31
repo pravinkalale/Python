@@ -1,3 +1,5 @@
+# (multilevel inheritance) multiple classes and objects
+
 class Grand_parent:                      # grand class 
     def talk(self):
         print("grand parents talk")
