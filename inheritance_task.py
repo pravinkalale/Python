@@ -47,35 +47,66 @@
 
 """Multiple inheritance with constructors"""
 
-class Calculation1:
+# class Calculation1:
 
+#     def __init__(self):
+#         print("Calculation1 Constructor")
+
+#     def summation(self, a, b):
+#         return a + b
+
+
+# class Calculation2:
+
+#     def __init__(self):
+#         print("Calculation2 Constructor")
+
+#     def difference(self, a, b):
+#         return a - b
+
+
+# class Derived(Calculation1, Calculation2):
+
+#     def __init__(self):
+#         print("Derived Constructor")
+
+#     def divide(self, a, b):
+#         return a / b
+
+
+# d = Derived()
+
+# print(d.summation(10, 20))
+# print(d.difference(10, 20))
+# print(d.divide(10, 20))
+
+"""Hierarchical inheritance with constructor"""
+
+class Animal:
     def __init__(self):
-        print("Calculation1 Constructor")
+        print("Animal constructor")
+        
+    def eat(self):
+        print("Animal eating")
 
-    def summation(self, a, b):
-        return a + b
-
-
-class Calculation2:
-
+class Dog(Animal):
     def __init__(self):
-        print("Calculation2 Constructor")
-
-    def difference(self, a, b):
-        return a - b
-
-
-class Derived(Calculation1, Calculation2):
-
+        print("Dog constructor")
+        
+    def bark(self):
+        print("Dog bark")
+        
+class Cat(Animal):
     def __init__(self):
-        print("Derived Constructor")
+        print("Cat constructor")
+        
+    def meow(self):
+        print("cat meow")
+        
+d = Dog()
+d.eat()
+d.bark()
 
-    def divide(self, a, b):
-        return a / b
-
-
-d = Derived()
-
-print(d.summation(10, 20))
-print(d.difference(10, 20))
-print(d.divide(10, 20))
+c = Cat()
+c.eat()
+c.meow()
