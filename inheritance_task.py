@@ -1,13 +1,16 @@
-class Animal:                        # parent class
-    
-    def speak(self):
-        print("Animal Speaking")
-        
-#child class dog inherits the base class Animal
+# Single inheritance with constructors
 
-class Dog(Animal):               # child class 
+class Animal:
+    def __init__(self, name):
+        self.name = name
+        
+    def speak(self):
+        print(self.name ,"is speaking")
+
+class Dog(Animal):
     def bark(self):
-        print("dog barking")
-d = Dog()
+        print("dog is barking")
+        
+d = Dog("Animal")
 d.bark()
 d.speak()
