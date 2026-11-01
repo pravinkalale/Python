@@ -13,9 +13,9 @@ class Derived(Calculation1,  Calculation2):
         return a/b;
     
 d = Derived()
-# print(d.Summation(10,20))
-# print(d.Multiplication(10,20))
-# print(d.Divide(10,20))
+print(d.Summation(10,20))
+print(d.Multiplication(10,20))
+print(d.Divide(10,20))
 
 """issubclass method used"""
 
@@ -24,4 +24,4 @@ d = Derived()
 
 """is instance method """
 
-print(isinstance(d,Derived))
+# print(isinstance(d,Derived))
