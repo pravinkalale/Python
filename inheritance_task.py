@@ -82,31 +82,68 @@
 
 """Hierarchical inheritance with constructor"""
 
+# class Animal:
+#     def __init__(self):
+#         print("Animal constructor")
+        
+#     def eat(self):
+#         print("Animal eating")
+
+# class Dog(Animal):
+#     def __init__(self):
+#         print("Dog constructor")
+        
+#     def bark(self):
+#         print("Dog bark")
+        
+# class Cat(Animal):
+#     def __init__(self):
+#         print("Cat constructor")
+        
+#     def meow(self):
+#         print("cat meow")
+        
+# d = Dog()
+# d.eat()
+# d.bark()
+
+# c = Cat()
+# c.eat()
+# c.meow()
+
+
+"""Hybrid inheritance with constructor"""
+
 class Animal:
     def __init__(self):
-        print("Animal constructor")
+        print("parent constructor")
         
     def eat(self):
-        print("Animal eating")
-
+        print("Animal can eat")
+        
 class Dog(Animal):
     def __init__(self):
-        print("Dog constructor")
+        print("child1 class constructor")
         
     def bark(self):
-        print("Dog bark")
+        print("Dog barks")
         
 class Cat(Animal):
     def __init__(self):
-        print("Cat constructor")
+        print("child2 class constructor")
         
     def meow(self):
-        print("cat meow")
+        print("Cat meows")
         
-d = Dog()
-d.eat()
-d.bark()
-
-c = Cat()
-c.eat()
-c.meow()
+class Pet(Dog, Cat):
+    def __init__(self):
+        print("subclass constructor")
+        
+    def play(self):
+        print("Pet plays")
+        
+p = Pet()
+p.eat()
+p.bark()
+p.meow()
+p.play()
