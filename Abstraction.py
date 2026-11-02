@@ -130,31 +130,78 @@
 
 
 
+# from abc import ABC, abstractmethod
+
+# class Vehical(ABC):
+    
+#     @abstractmethod
+#     def speed(self):
+#         pass
+    
+# class Bike(Vehical):
+#     def speed(self):
+#         print("Bike speed is 100 kmph")
+
+# class Car(Vehical):
+#     def speed(self):
+#         print("Car speed is 200 kmph")
+        
+# class Bus(Vehical):
+#     def speed(self):
+#         print("Bus speed is 80 kmph")
+       
+# b = Bike()
+# b.speed()
+
+# c = Car()
+# c.speed()
+
+# b = Bus()
+# b.speed()
+
+
 from abc import ABC, abstractmethod
 
-class Vehical(ABC):
+class Mobile(ABC):
     
     @abstractmethod
-    def speed(self):
+    def calling(self):
+        pass 
+    
+    @abstractmethod
+    def camera(self):
         pass
     
-class Bike(Vehical):
-    def speed(self):
-        print("Bike speed is 100 kmph")
-
-class Car(Vehical):
-    def speed(self):
-        print("Car speed is 200 kmph")
+class Samsumg(Mobile):
+    def calling(self):
+        print("Samsung supports calling")
         
-class Bus(Vehical):
-    def speed(self):
-        print("Bus speed is 80 kmph")
-       
-b = Bike()
-b.speed()
+    def camera(self):
+        print("Samsung has 50MP camera\n")
+        
+class iphone(Mobile):
+    def calling(self):
+        print("iPhone supports calling")
+        
+    def camera(self):
+        print("iPhone has 48MP camera\n")
 
-c = Car()
-c.speed()
+class OnePlus(Mobile):
+    def calling(self):
+        print("OnePlus supports calling")
 
-b = Bus()
-b.speed()
+    def camera(self):
+        print("OnePlus has 64MP camera") 
+        
+s = Samsumg()
+s.calling()
+s.camera()
+
+i = iphone()
+i.calling()
+i.camera()
+
+o = OnePlus()
+o.calling()
+o.camera()       
+    
