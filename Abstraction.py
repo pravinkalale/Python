@@ -95,36 +95,66 @@
 # i.interest()
 
 
-from abc import ABC, abstractmethod
+# from abc import ABC, abstractmethod
 
-class Employee(ABC):
+# class Employee(ABC):
 
-    @abstractmethod
-    def salary(self):
-        pass
+#     @abstractmethod
+#     def salary(self):
+#         pass
  
 
-class Manager(Employee):
-    def salary(self):
-        print("Manager salary is 50000")
+# class Manager(Employee):
+#     def salary(self):
+#         print("Manager salary is 50000")
 
 
-class Developer(Employee):
-    def salary(self):
-        print("Developer salary is 40000")
+# class Developer(Employee):
+#     def salary(self):
+#         print("Developer salary is 40000")
 
 
-class Tester(Employee):
-    def salary(self):
-        print("Tester salary is 30000")
+# class Tester(Employee):
+#     def salary(self):
+#         print("Tester salary is 30000")
 
 
-m = Manager()
-m.salary()
+# m = Manager()
+# m.salary()
 
-d = Developer()
-d.salary()
+# d = Developer()
+# d.salary()
 
-t = Tester()
-t.salary()
+# t = Tester()
+# t.salary()
 
+
+
+from abc import ABC, abstractmethod
+
+class Vehical(ABC):
+    
+    @abstractmethod
+    def speed(self):
+        pass
+    
+class Bike(Vehical):
+    def speed(self):
+        print("Bike speed is 100 kmph")
+
+class Car(Vehical):
+    def speed(self):
+        print("Car speed is 200 kmph")
+        
+class Bus(Vehical):
+    def speed(self):
+        print("Bus speed is 80 kmph")
+       
+b = Bike()
+b.speed()
+
+c = Car()
+c.speed()
+
+b = Bus()
+b.speed()
