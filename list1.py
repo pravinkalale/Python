@@ -28,8 +28,39 @@
 
 # Change 20 to 200.
 
-l = [10, 20, 30, 40]
+# l = [10, 20, 30, 40]
 
-l[1]= 200
+# l[1]= 200
 
-print(l)
+# print(l)
+
+# list practices 3/11/26
+
+# find elements in even index
+
+a = [2,1,4,3,5,7,8,9,3]
+# for i in range(len(a)):
+#     if(i%2 == 0):
+#         print(a[i])
+
+# find even elements
+
+# for i in a:
+#     if(i%2==0):
+#         print(i)
+
+# remove duplicates elements from the list
+a = [2,1,2,4,3,5,1,5,4,3,3]
+list2 =[]
+
+for i in a:
+    if i not in list2:
+        list2.append(i)
+print(list2)
+       
+       
+# to add elements in empty list using user input
+# find minimum elements in a given list without using min()
+# max elements in given list without using max()
+# addition of two lists using for loop and using list comprehension also
+# sort the elements in ascending order without sort() method
