@@ -38,25 +38,25 @@
 
 # find elements in even index
 
-a = [2,1,4,3,5,7,8,9,3]
-# for i in range(len(a)):
-#     if(i%2 == 0):
-#         print(a[i])
+# a = [2,1,4,3,5,7,8,9,3]
+# # for i in range(len(a)):
+# #     if(i%2 == 0):
+# #         print(a[i])
 
-# find even elements
+# # find even elements
+
+# # for i in a:
+# #     if(i%2==0):
+# #         print(i)
+
+# # remove duplicates elements from the list
+# a = [2,1,2,4,3,5,1,5,4,3,3]
+# list2 =[]
 
 # for i in a:
-#     if(i%2==0):
-#         print(i)
-
-# remove duplicates elements from the list
-a = [2,1,2,4,3,5,1,5,4,3,3]
-list2 =[]
-
-for i in a:
-    if i not in list2:
-        list2.append(i)
-print(list2)
+#     if i not in list2:
+#         list2.append(i)
+# print(list2)
        
        
 # to add elements in empty list using user input
@@ -64,3 +64,25 @@ print(list2)
 # max elements in given list without using max()
 # addition of two lists using for loop and using list comprehension also
 # sort the elements in ascending order without sort() method
+
+# to add elements in empty list using user input
+
+# l = []
+
+# list = input("Enter the elements:")
+
+# for i in list:
+#     l.append(list)
+
+# print(l)
+    
+
+my_list = []
+
+n = int(input("Enter number of elements: "))
+
+for i in range(n):
+    num = int(input("Enter number: "))
+    my_list.append(num)
+
+print("list",my_list)
