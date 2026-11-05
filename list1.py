@@ -67,22 +67,24 @@
 
 # to add elements in empty list using user input
 
-# l = []
+# my_list = []
 
-# list = input("Enter the elements:")
+# n = int(input("Enter number of elements: "))
 
-# for i in list:
-#     l.append(list)
+# for i in range(n):
+#     num = int(input("Enter number: "))
+#     my_list.append(num)
 
-# print(l)
-    
+# print("list",my_list)
 
-my_list = []
+# find minimum elements in a given list without using min()
 
-n = int(input("Enter number of elements: "))
+l = [2,4,5,6,7,9,23,3]
 
-for i in range(n):
-    num = int(input("Enter number: "))
-    my_list.append(num)
+smallest = l[0]
 
-print("list",my_list)
+for i in l:
+    if i < smallest:
+        smallest = i
+
+print("Smallest:", smallest)
