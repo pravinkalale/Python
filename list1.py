@@ -79,12 +79,32 @@
 
 # find minimum elements in a given list without using min()
 
-l = [2,4,5,6,7,9,23,3]
+# l = [2,4,5,6,7,9,23,3]
 
-smallest = l[0]
+# smallest = l[0]
 
-for i in l:
-    if i < smallest:
-        smallest = i
+# for i in l:
+#     if i < smallest:
+#         smallest = i
 
-print("Smallest:", smallest)
+# print("Smallest:", smallest)
+
+
+# # max elements in given list without using max()
+
+# l = [2,4,5,6,7,9,23,3]
+
+# greatest = l[0]
+# for i in l:
+#     if i > greatest:
+#         greatest = i
+# print("greatest:",greatest) 
+
+
+# addition of two lists using for loop and using list comprehension also
+
+list1 = [1,23,4,56,2,5]
+list2 = [3,5,7,69,7,8]
+
+additon = [list1[i] + list2[i] for i in range (len(list1))]
+print(additon)
