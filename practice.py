@@ -1,5 +1,29 @@
-class student:
-    name = 'pravin kumar'
+# class student:
+#     name = 'pravin kumar'
     
-s1 = student()
-print(s1.name)
+# s1 = student()
+# print(s1.name)
+
+class Animal:
+    def sound(self):
+        print('hahaaha')
+        
+class Dog(Animal):
+    def bark(self):
+        print("dog barking")
+        
+class Cat(Animal):
+    def meow(self):
+        print("Cat meow")
+        
+c = Cat()
+c.meow()
+c.sound()
+
+d = Dog()
+d.bark()
+d.sound()
+
+
+s = Animal()
+s.sound()
