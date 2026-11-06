@@ -112,13 +112,13 @@
 
 # sort the elements in ascending order without sort() method
 
-l = [2,4,5,6,7,9,23,3]
+# l = [2,4,5,6,7,9,23,3]
 
-list = []
+# list = []
 
-for i in range (len(l)):
-    for j in range(len(l) - i - 1):
-        if l[j] > l[j + 1]:
-            l[j], l[j + 1] = l[j + 1], l[j]
+# for i in range (len(l)):
+#     for j in range(len(l) - i - 1):
+#         if l[j] > l[j + 1]:
+#             l[j], l[j + 1] = l[j + 1], l[j]
             
-print("Ascending order:", l)
+# print("Ascending order:", l)
