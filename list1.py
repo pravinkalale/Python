@@ -103,8 +103,22 @@
 
 # addition of two lists using for loop and using list comprehension also
 
-list1 = [1,23,4,56,2,5]
-list2 = [3,5,7,69,7,8]
+# list1 = [1,23,4,56,2,5]
+# list2 = [3,5,7,69,7,8]
 
-additon = [list1[i] + list2[i] for i in range (len(list1))]
-print(additon)
+# additon = [list1[i] + list2[i] for i in range (len(list1))]
+# print(additon)
+
+
+# sort the elements in ascending order without sort() method
+
+l = [2,4,5,6,7,9,23,3]
+
+list = []
+
+for i in range (len(l)):
+    for j in range(len(l) - i - 1):
+        if l[j] > l[j + 1]:
+            l[j], l[j + 1] = l[j + 1], l[j]
+            
+print("Ascending order:", l)
