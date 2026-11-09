@@ -124,11 +124,11 @@
 """ insert multiple values"""
 
 
-import sqlite3 as sq 
+# import sqlite3 as sq 
 
-con = sq.connect("mydata.db")
+# con = sq.connect("mydata.db")
 
-cur = con.cursor()
+# cur = con.cursor()
 
 # p = [(2,'Priya'),(3,'Shiv'),(4,'arjun')]
 
@@ -154,8 +154,8 @@ cur = con.cursor()
 
 # cur.execute("delete from student where id = 3")
 
-con.commit()
-con.close()
+# con.commit()
+# con.close()
 
 
 """ retrive data from database"""
@@ -192,3 +192,17 @@ con.close()
 """Delete particular data"""
 
 # cur.execute("delete from student where id = 3")
+
+
+import sqlite3 as sq 
+con = sq.connect("pmk.db")
+
+cur = con.cursor()
+
+cur.execute("SELECT * FROM employees")
+data = cur.fetchall()
+print("total rows=",len(data))
+
+for row in data:
+    print(row[0],row[4])
+print(data)
