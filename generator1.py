@@ -19,18 +19,18 @@
 #     print(i)
     
 
-#To generate fibonacci numbers using normal function and generator function 
+# # To generate fibonacci numbers using normal function and generator function 
 
-# def fibonacci(n):
-#     a = 0
-#     b = 1
+def fibonacci(n):
+    a = 0
+    b = 1
     
-#     for i in range(n):
-#         print(a)
-#         c = a + b
-#         a = b
-#         b = c
-# fibonacci(10)
+    for i in range(n):
+        print(a)
+        c = a + b
+        a = b
+        b = c
+fibonacci(10)
 
 
 # def fibonacci(n):
@@ -74,17 +74,17 @@
 # fibonacci(10)
 
 
-def fibonacci(n):
-    a = 0 
-    b = 1
-    i = 0
-    while i < n:
-        yield a
-        c = a + b
-        a = b 
-        b = c
+# def fibonacci(n):
+#     a = 0 
+#     b = 1
+#     i = 0
+#     while i < n:
+#         yield a
+#         c = a + b
+#         a = b 
+#         b = c
         
-        i = i + 1
+#         i = i + 1
     
-for num in fibonacci(10):
-    print(num)
+# for num in fibonacci(10):
+#     print(num)
