@@ -204,5 +204,7 @@ data = cur.fetchall()
 print("total rows=",len(data))
 
 for row in data:
-    print(row[0],row[4])
-print(data)
+    print(row)
+    
+con.close()
+  
