@@ -14,13 +14,27 @@
 # s.talk()
 
 
-class Parent:
-    def old(self):
-        print("i am parent")
+# class Parent:
+#     def old(self):
+#         print("i am parent")
         
-class Child(Parent):
-    def young(self):
-        print("i am young")
+# class Child(Parent):
+#     def young(self):
+#         print("i am young")
 
-d = Child()
-d.young()
+# d = Child()
+# d.young()
+
+"""10/11/2026"""
+
+class Student:
+    def __init__(self, fullname, marks):
+        self.name = fullname
+        self.marks = marks
+        print("adding new student in database..")
+        
+s1 = Student("Pravin", 98)
+print(s1.name, s1.marks)
+
+s2 = Student("shradha didi",76)
+print(s2.name, s2.marks)
