@@ -57,9 +57,13 @@
 """Create a class Student with name and marks."""
 
 class Student:
-    def score(self,name,marks):
+    def __init__(self,name,marks):
         self.name = name
         self.marks = marks
         
-S1= Student("Pravin",98)
+    def score(self):
+        print(self.name)
+        print(self.marks)
+        
+S1= Student("gaju",66)
 S1.score()
