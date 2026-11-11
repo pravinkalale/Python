@@ -56,14 +56,34 @@
 
 """Create a class Student with name and marks."""
 
-class Student:
-    def __init__(self,name,marks):
-        self.name = name
-        self.marks = marks
+# class Student:
+#     def __init__(self,name,marks):
+#         self.name = name
+#         self.marks = marks
         
-    def score(self):
-        print(self.name)
-        print(self.marks)
+#     def score(self):
+#         print(self.name)
+#         print(self.marks)
         
-S1= Student("gaju",66)
-S1.score()
+# S1= Student("gaju",66)
+# S1.score()
+
+"""Reverse a string without using built-in functions."""
+
+# s = "Hello"
+
+# print(s[::-1])
+
+"""Check whether a number is prime."""
+
+num = int(input("Enter a Number: "))
+
+if num > 1:
+    for i in range(2,num):
+        if num % i == 0:
+            print("Not prime number")
+            break
+    else:
+        print("Prime number")
+else:
+    print("not prime number")
