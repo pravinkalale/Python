@@ -4,26 +4,38 @@
 # s1 = student()
 # print(s1.name)
 
-class Animal:
-    def sound(self):
-        print('hahaaha')
+# class Animal:
+#     def sound(self):
+#         print('hahaaha')
         
-class Dog(Animal):
-    def bark(self):
-        print("dog barking")
+# class Dog(Animal):
+#     def bark(self):
+#         print("dog barking")
         
-class Cat(Animal):
-    def meow(self):
-        print("Cat meow")
+# class Cat(Animal):
+#     def meow(self):
+#         print("Cat meow")
         
-c = Cat()
-c.meow()
-c.sound()
+# c = Cat()
+# c.meow()
+# c.sound()
 
-d = Dog()
-d.bark()
-d.sound()
+# d = Dog()
+# d.bark()
+# d.sound()
 
 
-s = Animal()
-s.sound()
+# s = Animal()
+# s.sound()
+
+"""11/11/26"""
+
+"""Check whether a number is even or odd."""
+
+a = int(input("Enter a Number: "))
+
+if a%2==0:
+    print("Even number")
+else:
+    print("Odd number")
+
