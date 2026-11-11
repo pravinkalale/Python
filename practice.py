@@ -41,15 +41,25 @@
 
 """Find the largest of three numbers."""
 
-a = int(input("Enter first Number: "))
-b = int(input("Enter second Number: "))
-c = int(input("Enter third Number: "))
+# a = int(input("Enter first Number: "))
+# b = int(input("Enter second Number: "))
+# c = int(input("Enter third Number: "))
 
-if a > b and a > c:
-    print(a,"is largest")
-elif b > a and b > c:
-    print(b,"is largest")
-elif c > a and c > b: 
-    print(c,"is largest")
-else:
-    print("All of same")
+# if a > b and a > c:
+#     print(a,"is largest")
+# elif b > a and b > c:
+#     print(b,"is largest")
+# elif c > a and c > b: 
+#     print(c,"is largest")
+# else:
+#     print("All of same")
+
+"""Create a class Student with name and marks."""
+
+class Student:
+    def score(self,name,marks):
+        self.name = name
+        self.marks = marks
+        
+S1= Student("Pravin",98)
+S1.score()
