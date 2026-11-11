@@ -32,10 +32,24 @@
 
 """Check whether a number is even or odd."""
 
-a = int(input("Enter a Number: "))
+# a = int(input("Enter a Number: "))
 
-if a%2==0:
-    print("Even number")
+# if a%2==0:
+#     print("Even number")
+# else:
+#     print("Odd number")
+
+"""Find the largest of three numbers."""
+
+a = int(input("Enter first Number: "))
+b = int(input("Enter second Number: "))
+c = int(input("Enter third Number: "))
+
+if a > b and a > c:
+    print(a,"is largest")
+elif b > a and b > c:
+    print(b,"is largest")
+elif c > a and c > b: 
+    print(c,"is largest")
 else:
-    print("Odd number")
-
+    print("All of same")
