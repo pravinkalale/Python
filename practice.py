@@ -76,14 +76,47 @@
 
 """Check whether a number is prime."""
 
-num = int(input("Enter a Number: "))
+# num = int(input("Enter a Number: "))
 
-if num > 1:
-    for i in range(2,num):
-        if num % i == 0:
-            print("Not prime number")
-            break
-    else:
-        print("Prime number")
-else:
-    print("not prime number")
+# if num > 1:
+#     for i in range(2,num):
+#         if num % i == 0:
+#             print("Not prime number")
+#             break
+#     else:
+#         print("Prime number")
+# else:
+#     print("not prime number")
+
+"""Single Inheritance"""
+
+# class Animal:
+#     def eat(self):
+#         print("Animal is eating")
+        
+# class Dog(Animal):
+#     def bark(self):
+#         print("Dog is Barking")
+
+# d = Dog()
+# d.eat()
+# d.bark() 
+
+"""Multilevel Inheritance"""
+
+class Grandfather:
+    def house(self):
+        print("Grandfather's House")
+
+class Father(Grandfather):
+    def car(self):
+        print("Father's car")
+        
+class Son(Father):
+    def bike(self):
+        print("Son's Bike")
+        
+s = Son()
+s.house()
+s.car()
+s.bike()
