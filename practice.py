@@ -168,12 +168,27 @@
 
 """Check whether a string is palindrome."""
 
-s = input("Enter string: ").lower()   # convert to lower case
+# s = input("Enter string: ").lower()   # convert to lower case
 
-s = s.replace(" ","")                 # avoid spaces
-rev = (s[::-1])
+# s = s.replace(" ","")                 # avoid spaces
+# rev = (s[::-1])
 
-if s == rev:
-    print("string palindrome")
-else:
-    print("string not palindrome")
+# if s == rev:
+#     print("string palindrome")
+# else:
+#     print("string not palindrome")
+
+"""Count vowels in a string."""
+
+s = input("Enter string:")
+
+count = 0
+consonant_count = 0
+for ch in s:
+    if ch in "aeiou,AEIOU":
+        count += 1
+        print(ch)
+    elif ch in "bcdfghjklmnpqrstvwxyzBCDFGHJKLMNPQRSTVWXYZ":
+        consonant_count += 1
+print("total vowels:",count)
+print("consonants:",consonant_count)
