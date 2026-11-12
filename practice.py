@@ -104,19 +104,63 @@
 
 """Multilevel Inheritance"""
 
-class Grandfather:
-    def house(self):
-        print("Grandfather's House")
+# class Grandfather:
+#     def house(self):
+#         print("Grandfather's House")
 
-class Father(Grandfather):
-    def car(self):
-        print("Father's car")
+# class Father(Grandfather):
+#     def car(self):
+#         print("Father's car")
         
-class Son(Father):
-    def bike(self):
-        print("Son's Bike")
+# class Son(Father):
+#     def bike(self):
+#         print("Son's Bike")
         
-s = Son()
-s.house()
-s.car()
-s.bike()
+# s = Son()
+# s.house()
+# s.car()
+# s.bike()
+
+"""using super()"""
+
+# class Parent:
+#     def show(self):
+#         print("parent class")
+        
+# class Child(Parent):
+#     def show(self):
+#         super().show()
+#         print("Child class")
+
+# obj = Child()
+# obj.show()
+
+
+
+# class Employee:
+#     def __init__(self, name, salary):
+#         self.name = name
+#         self.salary = salary
+        
+# class Developer(Employee):
+#     def __init__(self, name, salary, language):
+#         super().__init__(name,salary)
+#         self.language = language
+        
+#     def display(self):
+#         print("Name:", self.name)
+#         print("salary:", self.salary)
+#         print("language:", self.language)
+
+# obj = Developer("Pravin",25000,"Python")
+# obj.display()
+
+
+"""Find factorial of a number."""
+
+num = int(input("Enter a number: "))
+
+fact = 1
+for i in range(1, num + 1):
+    fact = fact * i
+print("factorial:", fact)

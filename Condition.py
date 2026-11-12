@@ -6,7 +6,7 @@ if (age >= 18):
     print("You are eligible for vote")
 print("ghari jay")
 
-if else 
+#if else
 
 age =  19
 
