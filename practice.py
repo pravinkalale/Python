@@ -158,9 +158,22 @@
 
 """Find factorial of a number."""
 
-num = int(input("Enter a number: "))
+# num = int(input("Enter a number: "))
 
-fact = 1
-for i in range(1, num + 1):
-    fact = fact * i
-print("factorial:", fact)
+# fact = 1
+# for i in range(1, num + 1):
+#     fact = fact * i
+# print("factorial:", fact)
+
+
+"""Check whether a string is palindrome."""
+
+s = input("Enter string: ").lower()   # convert to lower case
+
+s = s.replace(" ","")                 # avoid spaces
+rev = (s[::-1])
+
+if s == rev:
+    print("string palindrome")
+else:
+    print("string not palindrome")
