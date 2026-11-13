@@ -233,33 +233,62 @@
 
 """Another example"""
 
-from abc import ABC, abstractmethod
+# from abc import ABC, abstractmethod
 
-#Abstract class 
-class Vehicle(ABC):
+# #Abstract class 
+# class Vehicle(ABC):
     
-    @abstractmethod
-    def start(self):
-        pass
+#     @abstractmethod
+#     def start(self):
+#         pass
     
-    def stop(self):
-        print("Vehicle stopped")
+#     def stop(self):
+#         print("Vehicle stopped")
         
-# Child class
-class Car(Vehicle):
-    def start(self):
-        print("Car starts with a key")
+# # Child class
+# class Car(Vehicle):
+#     def start(self):
+#         print("Car starts with a key")
         
-# Another child class
-class Bike(Vehicle): 
-    def start(self):
-        print("Bike starts with a button")
+# # Another child class
+# class Bike(Vehicle): 
+#     def start(self):
+#         print("Bike starts with a button")
         
-# creating object
-c = Car()
-c.start()
-c.stop()
+# # creating object
+# c = Car()
+# c.start()
+# c.stop()
 
-b = Bike()
-b.start()
-b.stop()
+# b = Bike()
+# b.start()
+# b.stop()
+
+
+"""Encapsulation"""
+
+class BankAccount:
+    def __init__(self, balance):
+        self.__balance = balance
+        
+    def deposit(self, amount):
+        self.__balance += amount
+        print("Amount Deposited:",amount)
+        print("Total Balance:",self.__balance)
+        
+    def withdrow(self, amount):
+        if amount <= self.__balance:
+            self.__balance -= amount
+            print("Amount Withdrawn:",amount)
+        else:
+            print("Insufficient Balance")
+    
+    def check_balance(self):
+        print("Current Balance:",self.__balance)
+        
+account = BankAccount(5000)
+account.check_balance()  
+account.deposit(1000) 
+account.check_balance()   
+account.withdrow(4000)  
+account.check_balance()
