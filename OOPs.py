@@ -141,19 +141,42 @@
 
 """multiple inheritance"""
 
-class Calculation1:
-    def summation(self, a,b):
-        return a+b
+# class Calculation1:
+#     def summation(self, a,b):
+#         return a+b
     
-class Calculation2:
-    def multiplication(self, a,b):
-        return a*b
+# class Calculation2:
+#     def multiplication(self, a,b):
+#         return a*b
 
-class Derived(Calculation1, Calculation2):
-    def divid(self, a,b):
-        return a/b
+# class Derived(Calculation1, Calculation2):
+#     def divid(self, a,b):
+#         return a/b
     
-d = Derived()
-print(d.summation(10,30))
-print(d.multiplication(10,30))
-print(d.divid(10,30))
+# d = Derived()
+# print(d.summation(10,30))
+# print(d.multiplication(10,30))
+# print(d.divid(10,30))
+
+
+"""Hierarchical Inheritance"""
+
+class Animal:
+    def eat(self):
+        print("Animal can eat")
+        
+class Dog(Animal):
+    def bark(self):
+        print("Dog is barking")
+        
+class Cat(Animal):
+    def meow(self):
+        print("Cat meows")
+        
+c = Cat()
+c.eat()
+c.meow()
+
+d = Dog()
+d.eat()
+d.bark()
