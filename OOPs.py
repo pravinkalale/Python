@@ -267,28 +267,61 @@
 
 """Encapsulation"""
 
-class BankAccount:
-    def __init__(self, balance):
-        self.__balance = balance
+# class BankAccount:
+#     def __init__(self, balance):
+#         self.__balance = balance
         
-    def deposit(self, amount):
-        self.__balance += amount
-        print("Amount Deposited:",amount)
-        print("Total Balance:",self.__balance)
+#     def deposit(self, amount):
+#         self.__balance += amount
+#         print("Amount Deposited:",amount)
+#         print("Total Balance:",self.__balance)
         
-    def withdrow(self, amount):
-        if amount <= self.__balance:
-            self.__balance -= amount
-            print("Amount Withdrawn:",amount)
-        else:
-            print("Insufficient Balance")
+#     def withdrow(self, amount):
+#         if amount <= self.__balance:
+#             self.__balance -= amount
+#             print("Amount Withdrawn:",amount)
+#         else:
+#             print("Insufficient Balance")
     
-    def check_balance(self):
-        print("Current Balance:",self.__balance)
+#     def check_balance(self):
+#         print("Current Balance:",self.__balance)
         
-account = BankAccount(5000)
-account.check_balance()  
-account.deposit(1000) 
-account.check_balance()   
-account.withdrow(4000)  
-account.check_balance()
+# account = BankAccount(5000)
+# account.check_balance()  
+# account.deposit(1000) 
+# account.check_balance()   
+# account.withdrow(4000)  
+# account.check_balance()
+
+
+"""Employee Management System"""
+
+class Employee:
+    def __init__(self, name, id, salary):
+        self.name = name
+        self._emp_id = id
+        self.__salary = salary
+        
+    def emp_name(self):
+        print("Employee Name:",self.name)
+        
+    def id(self):
+        print("Employee ID:",self._emp_id)
+        
+    def salary(self):
+        print("salary:",self.__salary)
+        
+    def upd_salary(self, amount):
+        self.__salary += amount
+        print("Updated salary:",self.__salary)
+        
+
+e = Employee(
+    "Pravin",
+    101,
+    30000
+)
+e.emp_name()
+e.id()
+e.salary()
+e.upd_salary(5000)
