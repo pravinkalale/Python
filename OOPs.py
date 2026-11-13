@@ -118,22 +118,42 @@
 
 """using constructor"""
 
-class Grand_parent:
-    def __init__(self):
-        print("Grand parent constructor")
+# class Grand_parent:
+#     def __init__(self):
+#         print("Grand parent constructor")
     
-    def house(self):
-        print("Grand parent's house")
+#     def house(self):
+#         print("Grand parent's house")
         
-class parent(Grand_parent):
-    def car(self):
-        print("Parent's car")
+# class parent(Grand_parent):
+#     def car(self):
+#         print("Parent's car")
     
-class child(parent):
-    def bike(self):
-        print("child's bike")
+# class child(parent):
+#     def bike(self):
+#         print("child's bike")
         
-c = child()
-c.house()
-c.car()
-c.bike()
+# c = child()
+# c.house()
+# c.car()
+# c.bike()
+
+
+"""multiple inheritance"""
+
+class Calculation1:
+    def summation(self, a,b):
+        return a+b
+    
+class Calculation2:
+    def multiplication(self, a,b):
+        return a*b
+
+class Derived(Calculation1, Calculation2):
+    def divid(self, a,b):
+        return a/b
+    
+d = Derived()
+print(d.summation(10,30))
+print(d.multiplication(10,30))
+print(d.divid(10,30))
