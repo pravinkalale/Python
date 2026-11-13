@@ -183,24 +183,83 @@
 
 """Hybrid Inheritance"""
 
-class Animal:
-    def eat(self):
-        print("Animal eating")
+# class Animal:
+#     def eat(self):
+#         print("Animal eating")
         
-class Dog(Animal):
-    def bark(self):
-        print("Dog is barking")
+# class Dog(Animal):
+#     def bark(self):
+#         print("Dog is barking")
         
-class Cat(Animal):
-    def meow(self):
-        print("Cat meow")
+# class Cat(Animal):
+#     def meow(self):
+#         print("Cat meow")
         
-class Pet(Dog, Cat):
-    def play(self):
-        print("Pet plays")
+# class Pet(Dog, Cat):
+#     def play(self):
+#         print("Pet plays")
         
-p = Pet()
-p.eat()
-p.bark()
-p.meow()
-p.play()
+# p = Pet()
+# p.eat()
+# p.bark()
+# p.meow()
+# p.play()
+
+"""Abstraction"""
+
+# from abc import ABC , abstractmethod
+
+# class Animal(ABC):
+    
+#     @abstractmethod
+#     def sound(self):
+#         print("Sound of Animal")
+    
+# class Dog(Animal):
+#     def sound(self):
+#         print("Dog is barking")
+        
+# class Cat(Animal):
+#     def sound(self):
+#         print("cat meow")
+        
+# d = Dog()
+# d.sound()
+
+# c = Cat()
+# c.sound()
+
+
+
+"""Another example"""
+
+from abc import ABC, abstractmethod
+
+#Abstract class 
+class Vehicle(ABC):
+    
+    @abstractmethod
+    def start(self):
+        pass
+    
+    def stop(self):
+        print("Vehicle stopped")
+        
+# Child class
+class Car(Vehicle):
+    def start(self):
+        print("Car starts with a key")
+        
+# Another child class
+class Bike(Vehicle): 
+    def start(self):
+        print("Bike starts with a button")
+        
+# creating object
+c = Car()
+c.start()
+c.stop()
+
+b = Bike()
+b.start()
+b.stop()
