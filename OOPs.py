@@ -159,11 +159,33 @@
 # print(d.divid(10,30))
 
 
-"""Hierarchical Inheritance"""
+# """Hierarchical Inheritance"""
+
+# class Animal:
+#     def eat(self):
+#         print("Animal can eat")
+        
+# class Dog(Animal):
+#     def bark(self):
+#         print("Dog is barking")
+        
+# class Cat(Animal):
+#     def meow(self):
+#         print("Cat meows")
+        
+# c = Cat()
+# c.eat()
+# c.meow()
+
+# d = Dog()
+# d.eat()
+# d.bark()
+
+"""Hybrid Inheritance"""
 
 class Animal:
     def eat(self):
-        print("Animal can eat")
+        print("Animal eating")
         
 class Dog(Animal):
     def bark(self):
@@ -171,12 +193,14 @@ class Dog(Animal):
         
 class Cat(Animal):
     def meow(self):
-        print("Cat meows")
+        print("Cat meow")
         
-c = Cat()
-c.eat()
-c.meow()
-
-d = Dog()
-d.eat()
-d.bark()
+class Pet(Dog, Cat):
+    def play(self):
+        print("Pet plays")
+        
+p = Pet()
+p.eat()
+p.bark()
+p.meow()
+p.play()
