@@ -329,22 +329,73 @@
 
 """Polymorphism"""
 
-class Car: 
-    def start(self):
-        print("Car starts with a key")
+# class Car: 
+#     def start(self):
+#         print("Car starts with a key")
         
-class Bike:
-    def start(self):
-        print("Bike starts with a button")
+# class Bike:
+#     def start(self):
+#         print("Bike starts with a button")
         
-class Airplane:
-    def start(self):
-        print("Airplane engine starts")
+# class Airplane:
+#     def start(self):
+#         print("Airplane engine starts")
         
-c = Car()
-b = Bike()
-a = Airplane()
+# c = Car()
+# b = Bike()
+# a = Airplane()
 
-c.start()
-b.start()
-a.start()
+# c.start()
+# b.start()
+# a.start()
+
+"""payment example"""
+
+# class UPI:
+#     def pay(self):
+#         print("Thank you for choosing UPI payment!")
+        
+# class CreditCard:
+#     def pay(self):
+#         print("Thank you for choosing Credit card payment!")
+        
+# class NetBanking:
+#     def pay(self):
+#         print("Thank you for choosing NetBanking!")
+        
+# u = UPI()
+# c = CreditCard()
+# n = NetBanking()
+
+# u.pay()
+# c.pay()
+# n.pay()
+
+"""Calculate the areas"""
+
+class Shape:
+    def area(self):
+        pass
+    
+class Circle(Shape):
+    def area(self,radius):
+        return 3.14 * radius**2
+    
+class Rectangle(Shape):
+    def area(self,length,width):
+        return length * width
+    
+class Triangle(Shape):
+    def area(self,base,height):
+        return 0.5 * base * height
+    
+c = Circle()
+r = Rectangle()
+t = Triangle()
+
+print(c.area(20))
+print(r.area(10,25))
+print(t.area(10,30))
+        
+    
+    
