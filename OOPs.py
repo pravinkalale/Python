@@ -296,32 +296,55 @@
 
 """Employee Management System"""
 
-class Employee:
-    def __init__(self, name, id, salary):
-        self.name = name
-        self._emp_id = id
-        self.__salary = salary
+# class Employee:
+#     def __init__(self, name, id, salary):
+#         self.name = name
+#         self._emp_id = id
+#         self.__salary = salary
         
-    def emp_name(self):
-        print("Employee Name:",self.name)
+#     def emp_name(self):
+#         print("Employee Name:",self.name)
         
-    def id(self):
-        print("Employee ID:",self._emp_id)
+#     def id(self):
+#         print("Employee ID:",self._emp_id)
         
-    def salary(self):
-        print("salary:",self.__salary)
+#     def salary(self):
+#         print("salary:",self.__salary)
         
-    def upd_salary(self, amount):
-        self.__salary += amount
-        print("Updated salary:",self.__salary)
+#     def upd_salary(self, amount):
+#         self.__salary += amount
+#         print("Updated salary:",self.__salary)
         
 
-e = Employee(
-    "Pravin",
-    101,
-    30000
-)
-e.emp_name()
-e.id()
-e.salary()
-e.upd_salary(5000)
+# e = Employee(
+#     "Pravin",
+#     101,
+#     30000
+# )
+# e.emp_name()
+# e.id()
+# e.salary()
+# e.upd_salary(5000)
+
+
+"""Polymorphism"""
+
+class Car: 
+    def start(self):
+        print("Car starts with a key")
+        
+class Bike:
+    def start(self):
+        print("Bike starts with a button")
+        
+class Airplane:
+    def start(self):
+        print("Airplane engine starts")
+        
+c = Car()
+b = Bike()
+a = Airplane()
+
+c.start()
+b.start()
+a.start()
