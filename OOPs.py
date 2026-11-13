@@ -69,13 +69,71 @@
 
 """Single inheritance"""
 
-class Animal:
-    def speak(self):
-        print("Animal Speaking")
-class Dog(Animal):
-    def bark(self):
-        print("Dog is barking")
+# class Animal:
+#     def speak(self):
+#         print("Animal Speaking")
+# class Dog(Animal):
+#     def bark(self):
+#         print("Dog is barking")
         
-d = Dog()
-d.speak()
-d.bark()
+# d = Dog()
+# d.speak()
+# d.bark()
+
+"""using constructor"""
+
+# class Animal:
+#     def __init__(self, name):
+#         self.name = name
+        
+#     def speak(self):
+#         print(self.name, "is speaking")
+        
+# class Dog(Animal):
+#     def bark(self):
+#         print("Dog is barking")
+
+# d = Dog("Animal")
+# d.speak()
+# d.bark()
+
+"""Multilevel inheritance"""
+
+# class Grand_parent:
+#     def house(self):
+#         print("Grand parent's house")
+        
+# class parent(Grand_parent):
+#     def car(self):
+#         print("Parent's car")
+    
+# class child(parent):
+#     def bike(self):
+#         print("child's bike")
+        
+# c = child()
+# c.house()
+# c.car()
+# c.bike()
+
+"""using constructor"""
+
+class Grand_parent:
+    def __init__(self):
+        print("Grand parent constructor")
+    
+    def house(self):
+        print("Grand parent's house")
+        
+class parent(Grand_parent):
+    def car(self):
+        print("Parent's car")
+    
+class child(parent):
+    def bike(self):
+        print("child's bike")
+        
+c = child()
+c.house()
+c.car()
+c.bike()
