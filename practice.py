@@ -180,15 +180,32 @@
 
 """Count vowels in a string."""
 
-s = input("Enter string:")
+# s = input("Enter string:")
 
-count = 0
-consonant_count = 0
-for ch in s:
-    if ch in "aeiou,AEIOU":
-        count += 1
-        print(ch)
-    elif ch in "bcdfghjklmnpqrstvwxyzBCDFGHJKLMNPQRSTVWXYZ":
-        consonant_count += 1
-print("total vowels:",count)
-print("consonants:",consonant_count)
+# count = 0
+# consonant_count = 0
+# for ch in s:
+#     if ch in "aeiou,AEIOU":
+#         count += 1
+#         print(ch)
+#     elif ch in "bcdfghjklmnpqrstvwxyzBCDFGHJKLMNPQRSTVWXYZ":
+#         consonant_count += 1
+# print("total vowels:",count)
+# print("consonants:",consonant_count)
+
+"""Find the second-largest element in a list."""
+
+l = [29,33,22,99,44,10,35]
+
+largest = 0
+second_largest = 0
+
+for i in l:
+    if i > largest:
+        second_largest = largest
+        largest = i
+    elif i > second_largest and i != largest:
+        second_largest = i
+        
+print(largest)
+print(second_largest)
