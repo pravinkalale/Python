@@ -215,28 +215,47 @@
 
 """Using Sorted"""
 
-str1 = input("Enter first string:")
-str2 = input("Enter second string:")
+# str1 = input("Enter first string:")
+# str2 = input("Enter second string:")
 
-if sorted(str1) == sorted(str2):
-    print("Given Strings are anagrams")
-else:
-    print("Given Strings are not anagrams")
+# if sorted(str1) == sorted(str2):
+#     print("Given Strings are anagrams")
+# else:
+#     print("Given Strings are not anagrams")
     
 
 """Without built in function"""
 
-str1 = input("Enter first String:")
-str2 = input("Enter second String:")
+# str1 = input("Enter first String:")
+# str2 = input("Enter second String:")
 
-if len(str1) != len(str2):
-    print("Not anagram")
+# if len(str1) != len(str2):
+#     print("Not anagram")
     
-else:
-    for i in str1:
-        if str1.count(i) != str2.count(i):
-            print("Not anagram")
-            break
-    else:
-        print("Given strings are anagram")
+# else:
+#     for i in str1:
+#         if str1.count(i) != str2.count(i):
+#             print("Not anagram")
+#             break
+#     else:
+#         print("Given strings are anagram")
              
+             
+"""string practice"""
+
+s = input("Enter a string:")
+
+freq = {}
+
+for ch in s:
+    if ch in freq:
+        freq[ch] += 1
+    else:
+        freq[ch] = 1
+        
+for ch in s:
+    if freq[ch] == 1:
+        print("first non repeating character:",ch)
+        break
+else:
+    print("No one-repeating character found")
