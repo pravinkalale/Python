@@ -373,29 +373,28 @@
 
 """Calculate the areas"""
 
-class Shape:
-    def area(self):
-        pass
+# class Shape:
+#     def area(self):
+#         pass
     
-class Circle(Shape):
-    def area(self,radius):
-        return 3.14 * radius**2
+# class Circle(Shape):
+#     def area(self,radius):
+#         return 3.14 * radius**2
     
-class Rectangle(Shape):
-    def area(self,length,width):
-        return length * width
+# class Rectangle(Shape):
+#     def area(self,length,width):
+#         return length * width
     
-class Triangle(Shape):
-    def area(self,base,height):
-        return 0.5 * base * height
+# class Triangle(Shape):
+#     def area(self,base,height):
+#         return 0.5 * base * height
     
-c = Circle()
-r = Rectangle()
-t = Triangle()
+# c = Circle()
+# r = Rectangle()
+# t = Triangle()
 
-print(c.area(20))
-print(r.area(10,25))
-print(t.area(10,30))
+# print(c.area(20))
+# print(r.area(10,25))
+# print(t.area(10,30))
         
-    
     
