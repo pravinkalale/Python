@@ -195,17 +195,48 @@
 
 """Find the second-largest element in a list."""
 
-l = [29,33,22,99,44,10,35]
+# l = [29,33,22,99,44,10,35]
 
-largest = 0
-second_largest = 0
+# largest = 0
+# second_largest = 0
 
-for i in l:
-    if i > largest:
-        second_largest = largest
-        largest = i
-    elif i > second_largest and i != largest:
-        second_largest = i
+# for i in l:
+#     if i > largest:
+#         second_largest = largest
+#         largest = i
+#     elif i > second_largest and i != largest:
+#         second_largest = i
         
-print(largest)
-print(second_largest)
+# print(largest)
+# print(second_largest)
+
+
+"""Check whether two strings are anagrams."""
+
+"""Using Sorted"""
+
+str1 = input("Enter first string:")
+str2 = input("Enter second string:")
+
+if sorted(str1) == sorted(str2):
+    print("Given Strings are anagrams")
+else:
+    print("Given Strings are not anagrams")
+    
+
+"""Without built in function"""
+
+str1 = input("Enter first String:")
+str2 = input("Enter second String:")
+
+if len(str1) != len(str2):
+    print("Not anagram")
+    
+else:
+    for i in str1:
+        if str1.count(i) != str2.count(i):
+            print("Not anagram")
+            break
+    else:
+        print("Given strings are anagram")
+             
