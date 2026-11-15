@@ -276,13 +276,28 @@
 
 """Find the frequency of each character in a string."""
 
-s = input("Enter string:")
+# s = input("Enter string:")
 
-for i in s:
-    count = 0
+# for i in s:
+#     count = 0
     
-    for j in s:
-        if i == j:
-            count += 1
+#     for j in s:
+#         if i == j:
+#             count += 1
     
-    print(i,"=", count)
+#     print(i,"=", count)
+
+
+"""Find common elements between two lists."""
+
+list = [10,20,30,40,50]
+
+list1 = [20,50,30,40,10]
+
+new_list =[]
+
+for i in list:
+    if i in list1:
+        new_list.append(i)
+        
+print(new_list)
