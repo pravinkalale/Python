@@ -243,19 +243,32 @@
              
 """string practice"""
 
-s = input("Enter a string:")
+# s = input("Enter a string:")
 
-freq = {}
+# freq = {}
 
-for ch in s:
-    if ch in freq:
-        freq[ch] += 1
-    else:
-        freq[ch] = 1
+# for ch in s:
+#     if ch in freq:
+#         freq[ch] += 1
+#     else:
+#         freq[ch] = 1
         
-for ch in s:
-    if freq[ch] == 1:
-        print("first non repeating character:",ch)
-        break
-else:
-    print("No one-repeating character found")
+# for ch in s:
+#     if freq[ch] == 1:
+#         print("first non repeating character:",ch)
+#         break
+# else:
+#     print("No one-repeating character found")
+
+
+"""Remove duplicate elements from a list."""
+
+l = [10,20,30,50,80,70,60,30,20]
+
+new_list = []
+
+for i in l:
+    if i not in new_list:
+        new_list.append(i)
+        
+print(new_list)
