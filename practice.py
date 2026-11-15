@@ -290,14 +290,39 @@
 
 """Find common elements between two lists."""
 
-list = [10,20,30,40,50]
+# list = [10,20,30,40,50]
 
-list1 = [20,50,30,40,10]
+# list1 = [30,40,50,60,70]
 
-new_list =[]
+# new_list =[]
 
-for i in list:
-    if i in list1:
-        new_list.append(i)
+# for i in list:
+#     if i in list1:
+#         new_list.append(i)
         
-print(new_list)
+# print("Common Elements:",new_list)
+
+
+"""Create a function to check Armstrong number."""
+
+def armstrong():
+    
+    num  = int(input("Enter a number:"))
+    
+    sum = 0 
+    temp = num
+    power = len(str(num))
+    
+    while(num > 0):
+        rem = num % 10
+        sum = sum + rem**power
+        num = num // 10
+        
+    if temp == sum:
+        print("armstrong number")
+    else:
+        print("Not armstrong number")
+
+armstrong()
+    
+       
