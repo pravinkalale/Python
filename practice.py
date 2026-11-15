@@ -263,12 +263,26 @@
 
 """Remove duplicate elements from a list."""
 
-l = [10,20,30,50,80,70,60,30,20]
+# l = [10,20,30,50,80,70,60,30,20]
 
-new_list = []
+# new_list = []
 
-for i in l:
-    if i not in new_list:
-        new_list.append(i)
+# for i in l:
+#     if i not in new_list:
+#         new_list.append(i)
         
-print(new_list)
+# print(new_list)
+
+
+"""Find the frequency of each character in a string."""
+
+s = input("Enter string:")
+
+for i in s:
+    count = 0
+    
+    for j in s:
+        if i == j:
+            count += 1
+    
+    print(i,"=", count)
