@@ -32,17 +32,28 @@
     
 """Check given number is armstong or not """
 
-num = int(input("Enter a number: "))
+# num = int(input("Enter a number: "))
 
-sum = 0
-temp = num
+# sum = 0
+# temp = num
 
-while num > 0:
-    rem = num % 10
-    sum = sum + rem**3
-    num = num//10
+# while num > 0:
+#     rem = num % 10
+#     sum = sum + rem**3
+#     num = num//10
     
-if sum == temp:
-    print("given number is armstrong")
-else:
-    print("given number is not armstrong")
+# if sum == temp:
+#     print("given number is armstrong")
+# else:
+#     print("given number is not armstrong")
+
+
+"""lisk operations"""
+
+fruits = ["apple","banana","cherry"]
+
+fruits.append("orange")
+print(fruits)
+
+fruits.clear()
+print(fruits)
